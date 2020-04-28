@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1,RTV tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/rtv.png"
+#EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/rtv.png",RTV
 https://itpolly.iptv.digijadoo.net/live/rtv/playlist.m3u8
 
 #EXTINF:-1,Channel I
