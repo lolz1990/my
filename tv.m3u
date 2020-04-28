@@ -9,19 +9,19 @@ https://itpolly.iptv.digijadoo.net/live/channel_i/chunks.m3u8
 #EXTINF:-1 tvg-logo="http://10.16.100.244/files/ekattortv.png",Ekattor TV
 https://itpolly.iptv.digijadoo.net/live/ekattor_tv/chunks.m3u8
 
-#EXTINF:-1,NTV
+#EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/ntv.png",NTV
 https://itpolly.iptv.digijadoo.net/live/ntv/chunks.m3u8
 
-#EXTINF:-1,ATN Bangla
+#EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/atnbangla.png",ATN Bangla
 https://itpolly.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8
 
-#EXTINF:-1,DBC news
+#EXTINF:-1tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/dbc24news.png",DBC news
 http://175.41.46.16:8081/hls/5.m3u8
 
-#EXTINF:-1,Duronto TV
+#EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/durantotv.png",Duronto TV
 https://itpolly.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8
 
-#EXTINF:-1,Channel 24
+#EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/channel24.png",Channel 24
 https://itpolly.iptv.digijadoo.net/live/channel_24/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24
@@ -30,7 +30,7 @@ http://175.41.46.16:8081/hls/9.m3u8
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24(2)
 http://175.41.46.16:8081/hls/9.m3u8
 
-#EXTINF:-1,BTV World
+#EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/btv-world.jpg",BTV World
 https://itpolly.iptv.digijadoo.net/live/btv_world/chunks.m3u8
 
 #EXTINF:-1,Star Jalsha
