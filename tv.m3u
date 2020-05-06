@@ -24,6 +24,9 @@ https://edge01.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/channel24.png",Channel 24
 https://edge01.iptv.digijadoo.net/live/channel_24/chunks.m3u8
 
+#EXTINF:-1,Somoy News
+https://edge01.iptv.digijadoo.net/live/somoy_news/chunks.m3u8
+
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24
 http://175.41.46.16:8081/hls/9.m3u8
 
@@ -102,6 +105,9 @@ https://streamidvo.multitvsolution.in//live//APHDHindi-a//p4.m3u8
 #EXTINF:-1,Discovery Science
 http://streamidvo.multitvsolution.in/DiscoverScienceHindi-a/playlist.m3u8
 
+#EXTINF:-1,History Tv
+https://edge01.iptv.digijadoo.net/live/history_tv_hd/chunks.m3u8
+
 #EXTINF:-1,zee bangla hd
 http://10.16.100.202:8080/tvs202/zeebanglahd.m3u8
 
@@ -138,8 +144,11 @@ http://tv.ebox.live:8080/live/natg.m3u8
 #EXTINF:-1,NAT Geo People 
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
 
-#EXTINF:-1,History
+#EXTINF:-1,History tv
 https://edge01.iptv.digijadoo.net/live/history_tv_hd/chunks.m3u8
+
+#EXTINF:-1,Nat geo wild
+https://edge01.iptv.digijadoo.net/live/nat_geo_wild/chunks.m3u8
 
 #EXTINF:-1,Banglavision TV
 https://edge01.iptv.digijadoo.net/live/bangla_vision/chunks.m3u8
