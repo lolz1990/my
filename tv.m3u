@@ -120,6 +120,9 @@ https://edge01.iptv.digijadoo.net/live/colors_hd/chunks.m3u8
 #EXTINF:-1,Colors Bangla
 https://edge01.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8
 
+#EXTINF:-1,Colors Bangla 2
+http://116.203.122.193:3244/bangla2020/colorsbanglahd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xNi8yMDIwIDE6NTk6NTggUE0maGFzaF92YWx1ZT1pMmdsWDBzaWVPQ2tWU29wNWUrWXdnPT0mdmFsaWRtaW51dGVzPTI=
+
 #EXTINF:-1, Setmax
 http://10.16.100.204:8080/tv204/setmax_hd720.m3u8
 
