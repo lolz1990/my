@@ -72,7 +72,10 @@ https://edge01.iptv.digijadoo.net/live/zee_bangla/chunks.m3u8
 #EXTINF:-1,Zee bangla(2)
 http://103.58.73.26/streams/107/index.m3u8
 
-#EXTINF:-1,ZEE TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Zee_TV-2018.png",Zee TV HD
+http://103.141.66.36/bpk-tv/10403/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/zee_tv.jpg",Zee TV
 https://edge01.iptv.digijadoo.net/live/zee_tv/chunks.m3u8
 
 #EXTINF:-1,ZEE cinema
@@ -186,14 +189,11 @@ http://tv.ebox.live:8080/live/star-gold-select.m3u8
 #EXTINF:-1,Willow
 http://tv.ebox.live:8080/live/willow-cric.m3u8
 
-#EXTINF:-1,DD Bangla
-https://edge01.iptv.digijadoo.net/live/dd_bangla/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Dd_Bangla.PNG/180px-Dd_Bangla.png",DD Bangla
+http://103.141.66.36/bpk-tv/10336/default/manifest.mpd
 
-#EXTINF:-1,DD National
-https://edge01.iptv.digijadoo.net/live/dd_national/chunks.m3u8
-
-#EXTINF:-1,DD NATIONAL 2
-http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8
+#EXTINF:-1 tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/dd_national.jpg",DD National
+http://103.141.66.36/bpk-tv/10265/default/manifest.mpd
 
 #EXTINF:-1, Nick
 https://edge01.iptv.digijadoo.net/live/nickelodeon/chunks.m3u8
