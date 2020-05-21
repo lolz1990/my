@@ -90,38 +90,47 @@ http://103.205.133.19/hls/banglacinema.m3u8
 #EXTINF:-1,Machranga
 http://175.41.46.16:8081/hls/10.m3u8
 
-#EXTINF:-1,Discovery
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/DiscoveryChannel.in.png",Discovery
 http://10.16.100.204:8080/tv204/discovery_hd720.m3u8
 
-#EXTINF:-1,Discovery Hindi
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/DiscoveryChannel.in.png",Discovery Hindi
 https://streamidvo.multitvsolution.in/live/DiscoveryHindi-a/p4.m3u8
 
-#EXTINF:-1,Sony bbc earth
+#EXTINF:-1 tvg-logo="https://static.epg.best/gb/DiscoveryChannel.uk.png",Discovery HD ENG
+http://103.205.133.42:1935/local/discovery_hd_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.epg.best/gb/DiscoveryChannel.uk.png",Discovery HD BN
+http://ctgiptv.kitv.live:1935/live/test/test1/51.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/SonyBBCEarth.in.png",Sony bbc earth
 http://10.16.100.204:8080/tv204/sonybbcearth_hd720.m3u8
 
-#EXTINF:-1,Animal planet
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/SonyBBCEarth.in.png",SONY BBC EARTH HD 
+https://sony247channels.akamaized.net/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
+
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/AnimalPlanet.in.png",Animal planet
 http://10.16.100.204:8080/tv204/animalplanet_hd720.m3u8
 
-#EXTINF:-1,Animal Planet hindi
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/AnimalPlanet.in.png",Animal Planet hindi
 https://streamidvo.multitvsolution.in//live//APHDHindi-a//p4.m3u8
 
-#EXTINF:-1,Discovery Science
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/DiscoveryScience.in.png",Discovery Science
 http://streamidvo.multitvsolution.in/DiscoverScienceHindi-a/playlist.m3u8
 
 #EXTINF:-1,History Tv
-https://edge01.iptv.digijadoo.net/live/history_tv_hd/chunks.m3u8
+https://itpolly.iptv.digijadoo.net/live/history_tv_hd/chunks.m3u8
 
-#EXTINF:-1,zee bangla hd
-http://stream-7b694ce7e.nmbs.top/m3u/Bangladesh/87f273e507.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgyJVL8Mgptp69f83421oUs9VBoqeHgtY_YAO6Zuz-9nFAkrz&s",zee bangla hd
+http://ctgiptv.kitv.live:1935/live/test/test1/26.m3u8
 
 #EXTINF:-1,Sony
 http://10.16.100.204:8080/tv204/sonyentertainmnt_720.m3u8
 
-#EXTINF:-1,Colors HD
-https://edge01.iptv.digijadoo.net/live/colors_hd/chunks.m3u8
+#EXTINF:-1 tvg-logo="data:image/png;base64,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",Colors HD
+https://itpolly.iptv.digijadoo.net/live/colors_hd/chunks.m3u8
 
-#EXTINF:-1,Colors Bangla
-https://edge01.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8
+#EXTINF:-1 tvg-logo="data:image/png;base64,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",Colors Bangla HD
+https://itpolly.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8
 
 #EXTINF:-1,Colors Bangla 2
 http://stream-7b694ce7e.nmbs.top/m3u/Bangladesh/9a23f67c75.m3u8
@@ -207,8 +216,8 @@ http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8
 #EXTINF:-1,Star Gold 2
 https://edge01.iptv.digijadoo.net/live/movies_ok/chunks.m3u8
 
-#EXTINF:-1,CARTOON NETWORK
-https://stream.simpaisa.com/pitvlive2/cartoon_360p/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2018/04/17/Catoon_Network_HD%2B.jpg?itok=Ucl6mm7e",CARTOON NETWORK HD
+http://ctgiptv.kitv.live:1935/live/test/test1/53.m3u8
 
 #EXTINF:-1,CARTOON NETWORK Hindi
 http://stream-7b694ce7e.nmbs.top/m3u/Kids/1e0a653ba1.m3u8
@@ -218,3 +227,36 @@ https://itpolly.iptv.digijadoo.net/live/nick_hd/chunks.m3u8
 
 #EXTINF:-1,Zee News
 http://103.141.66.36/bpk-tv/10285/default/manifest.mpd
+
+#EXTINF:-1,IN: SONY MAX HD 
+https://sony247channels.akamaized.net/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
+ 
+#EXTINF:-1,IN: SONY TV HD 
+https://sony247channels.akamaized.net/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
+ 
+#EXTINF:-1,IN: SONY SAB HD 
+https://sony247channels.akamaized.net/hls/live/2011749/SABHD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
+  
+#EXTINF:-1,IN: SONY WAH 
+https://sony247channels.akamaized.net/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdnea=1575646200_e09258cce6514d3deec5608118efddc9
+ 
+#EXTINF:-1,IN: SONY YAY 
+https://sony247channels.akamaized.net/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
+  
+#EXTINF:-1,IN: SONY TEN 1 HD 
+https://sony247channels.akamaized.net/hls/live/2004802/SONYTEN1HD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&amp;__nn__=5606168722001&amp;hdne 
+ 
+#EXTINF:-1,SONY TEN 2 HD
+https://sony247channels.akamaized.net/hls/live/2004803/SONYTEN2HD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdnea=1575646200_e09258cce6514d3deec5608118efddc9
+ 
+#EXTINF:-1,UK: SONY TEN 2 
+https://sony247channels.akamaized.net/hls/live/2004808/SonyTen2SD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&amp;__nn__=5606168722001&amp;hdne 
+ 
+#EXTINF:-1,IN: SONY TEN 3 HD 
+https://sony247channels.akamaized.net/hls/live/2004804/SONYTEN3HD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&amp;__nn__=5606168722001&amp;hdne 
+ 
+#EXTINF:-1,IN: SONY SIX HD 
+https://sony247channels.akamaized.net/hls/live/2004801/SonySIXHD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&amp;__nn__=5606168722001&amp;hdne 
+ 
+#EXTINF:-1,IN: SONY ESPN 
+https://sony247channels.akamaized.net/hls/live/2004806/SONYESPNSD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&amp;__nn__=5606168722001&amp;hdne
