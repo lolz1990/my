@@ -156,14 +156,23 @@ https://edge01.iptv.digijadoo.net/live/nat_geo_people/chunks.m3u8
 #EXTINF:-1,Nat Geo
 http://tv.ebox.live:8080/live/natg.m3u8
 
+#EXTINF:-1, Nat Geo 2
+http://host4.dynns.com/wevelwe/850a8ca433184938bfaeaf770abc5d7a.m3u8
+
 #EXTINF:-1,NAT Geo People 
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
+
+#EXTINF:-1,Nat Geo People 2
+https://cdn-laos.workpoint.news/hd-natgeopeople_720/index.m3u8
 
 #EXTINF:-1,History tv
 https://edge01.iptv.digijadoo.net/live/history_tv_hd/chunks.m3u8
 
 #EXTINF:-1,Nat geo wild
 https://edge01.iptv.digijadoo.net/live/nat_geo_wild/chunks.m3u8
+
+#EXTINF:-1,Nat Geo Wild 2
+https://cdn-laos.workpoint.news/hd-natgeowild_720/index.m3u8
 
 #EXTINF:-1,Banglavision TV
 https://edge01.iptv.digijadoo.net/live/bangla_vision/chunks.m3u8
