@@ -27,10 +27,10 @@ https://edge01.iptv.digijadoo.net/live/channel_i/chunks.m3u8
 https://edge01.iptv.digijadoo.net/live/ekattor_tv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/dbc24news.png",DBC news
-http://pioneer.anytv.live:8080/dbc/tracks-v1a1/mono.m3u8
+http://tv.ebox.live:8080/live/dbc.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24
-http://pioneer.anytv.live:8080/news24/tracks-v1a1/mono.m3u8
+http://ddn.amrbd.com:8081/live/news24-24/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla SD
 https://edge01.iptv.digijadoo.net/live/zee_bangla/chunks.m3u8
