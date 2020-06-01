@@ -172,7 +172,7 @@ http://103.49.168.172:8081/ebox/in_bbc_earth_hd/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/SonyBBCEarth.in.png",SONY BBC EARTH HD 
 https://sony247channels.akamaized.net/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
 
-#EXTINF:1 tvg-logo="https://i.imgur.com/Rrgu5uB.png",BBC Earth
+#EXTINF:1 tvg-logo="https://static.epg.best/au/BBCEarth.au.png",BBC Earth
 http://iptv.kitv.live:1935/live/Shari/MTV-P/168.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/AnimalPlanet.in.png",Animal planet
