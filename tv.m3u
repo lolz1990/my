@@ -265,6 +265,9 @@ http://43.230.123.21:8080/live/willow-cric.m3u8
 #EXTINF:1 tvg-logo="https://s4.gifyu.com/images/image7706cc8618fc9938.png",GTV
 http://itpolly.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8
 
+#EXTINF:-1, tvg-logo="https://static.epg.best/in/Aastha.in.png",aastha tv
+http://103.141.66.36/bpk-tv/10130/default/index.m3u8
+
 
 
 
