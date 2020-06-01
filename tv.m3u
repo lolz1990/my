@@ -38,7 +38,7 @@ https://edge01.iptv.digijadoo.net/live/zee_bangla/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://kccl.tv/sites/default/files/Zee_Bangla_HD_Logo.jpg",Zee Bangla HD
 http://iptv.kitv.live:1935/live/Shari/MTV-P/124.m3u8
 
-#EXTINF:-1tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/ac/Star_Jalsha_HD_2019_Chalo_Paltai.png/revision/latest?cb=20190224051010",Star Jalsha HD
+#EXTINF:-1tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/ac/Star_Jalsha_HD_2019_Chalo_Paltai.png",Star Jalsha HD
 https://edge01.iptv.digijadoo.net/live/star_jalsha_hd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD
@@ -77,10 +77,10 @@ http://103.141.66.36/bpk-tv/10265/default/manifest.mpd
 #EXTINF:1 tvg-logo="https://static.epg.best/in/JalshaMovies.in.png",Jalsha Movies
 http://otv.ftpbd.net/streams/115/index.m3u8
 
-#EXTINF:1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9MzpwBz8uo7v876L9PCYcj7QL2MkSj61XiJn_h87krLPIbfZQ&usqp=CAU",Jalsha Movies HD
+#EXTINF:1 tvg-logo="https://static.epg.best/in/JalshaMovies.in.png",Jalsha Movies HD
 http://tv.ebox.live:8080/live/star-jalsha-movies.m3u8
 
-#EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imagebe2ca8f50c9c4956.png" ,Zee Bangla Cinema
+#EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imagebe2ca8f50c9c4956.png",Zee Bangla Cinema
 http://tv.ebox.live:8080/live/zee-cinema-bangla.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.nicepng.com/png/detail/248-2482573_hindi-movies-hd-star-gold-channel-live-tv.png",STAR GOLD HD
@@ -95,13 +95,13 @@ http://otv.ftpbd.net/streams/109/index.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/xPHRJa9.png",Sony Max HD
 http://ddn.amrbd.com:8081/live/satmax-37/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/xPHRJa9.png,IN: SONY MAX HD 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xPHRJa9.png",IN: SONY MAX HD 
 https://sony247channels.akamaized.net/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uAVqCOq.png" ,Sony Max 2
 http://tv.ebox.live:8080/live/sony-max-2.m3u8
 
-#EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image48139d60b1c93448.png,IN: SONY WAH 
+#EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image48139d60b1c93448.png",IN: SONY WAH 
 https://sony247channels.akamaized.net/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdnea=1575646200_e09258cce6514d3deec5608118efddc9
 
 #EXTINF:-1 tvg-logo="https://www.nicepng.com/png/detail/248-2482573_hindi-movies-hd-star-gold-channel-live-tv.png",STAR GOLD HD
@@ -134,7 +134,7 @@ http://iptv.kitv.live:1935/live/Shari/MTV-P/192.m3u8
 #EXTINF:1 tvg-logo="https://i.imgur.com/IOHo45w.png",Kolkata TV
 http://iptv.kitv.live:1935/live/Shari/MTV-P/320.m3u8
 
-#EXTINF:1 tvg-logo="https://raw.githubusercontent.com/maddy-mad/TV_Logos/master/India/Aaj_Tak_HD.png",aajtaak hd 
+#EXTINF:1 tvg-logo="https://smedia2.intoday.in/aajtak/resources/theme_v2/common/images/livetv-share_hd.jpg",aajtaak hd 
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 
 #EXTINF:-1  tvg-logo="https://static.epg.best/in/ABPNews.in.png",ABP News
@@ -214,7 +214,7 @@ http://ccn.anytv.live:8080/cartoonnet/tracks-v1a1/mono.m3u
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KARm3uR.png",Nick HD+
 https://itpolly.iptv.digijadoo.net/live/nick_hd/chunks.m3u8
 
-#EXTINF:1 tvg-logo="https://i.imgur.com/KARm3uR.png" ,Nick
+#EXTINF:1 tvg-logo="https://static.epg.best/in/Nick.in.png" ,Nick
 http://tv.ebox.live:8080/live/nick.m3u8
 
 #EXTINF:1 tvg-logo="https://s4.gifyu.com/images/image19af25ea624db0f9.png",Sony Yay
