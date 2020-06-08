@@ -272,6 +272,14 @@ http://103.141.66.36/bpk-tv/10130/default/index.m3u8
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/40/Logo_of_Sun_Bangla.jpg",Sun Bangla
 http://stream-e30453a4b.nmbs.top/m3u/Bangladesh/dae2587638.m3u8
 
+#EXTINF:-1, tvg-logo="https://i.imgur.com/YWceLs7.png",TRT World
+https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
+
+#EXTINF:-1, tvg-logo="https://i.imgur.com/gl5lSVW.png",Hum Sitaray
+http://iptv.kitv.live:1935/live/Shari/MTV-P/143.m3u8
+
+#EXTINF:-1, tvg-logo="https://s6.gifyu.com/images/image88f9312753c0510c.png",Geo News
+http://103.205.133.14/hls/geonews.m3u8
 
 
 
