@@ -158,7 +158,8 @@ http://ddn.amrbd.com:8081/live/discovery-12/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/gb/DiscoveryChannel.uk.png",Discovery HD 
 http://iptv.kitv.live:1935/live/Shari/MTV-P/167.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png", Nat Geo 2http://host4.dynns.com/wevelwe/850a8ca433184938bfaeaf770abc5d7a.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png",Nat Geo 
+http://220.158.149.14:9999/live/TV00000000000000000115@HHZT;LIVE
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imageab5309baa10a397c.png",Nat Geo People 
 https://cdn-laos.workpoint.news/hd-natgeopeople_720/index.m3u8
@@ -197,13 +198,13 @@ https://edge01.iptv.digijadoo.net/live/sangeet_bangla/chunks.m3u8
 http://iptv.kitv.live:1935/live/Shari/MTV-P/184.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.animationmagazine.net/wordpress/wp-content/uploads/Cartoon-Network-HD-post.jpg",CARTOON NETWORK HD+
-http://ctgiptv.kitv.live:1935/live/test/test1/53.m3u8
+http://iptv.kitv.live:1935/live/Shari/MTV-P/170.m3u8
 
 #EXTINF:-1  tvg-logo="https://static.epg.best/in/CartoonNetwork.in.png",CARTOON NETWORK ustv
 https://cdnbpp1.useetv.com/joss/14/cartoonnetwork/chunklist_w1073351013_b684100_sleng_54935.m3u8
 
-#EXTINF:1 tvg-logo="https://i.imgur.com/CPdrEIm.png",Cartoon Network
-http://ccn.anytv.live:8080/cartoonnet/tracks-v1a1/mono.m3u
+#EXTINF:1 tvg-logo="https://i.imgur.com/CPdrEIm.png",Cartoon Network Hindi
+http://stream-e30453a4b.nmbs.top/m3u/Kids/16d940210b.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KARm3uR.png",Nick HD+
 https://itpolly.iptv.digijadoo.net/live/nick_hd/chunks.m3u8
@@ -268,6 +269,8 @@ http://itpolly.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8
 #EXTINF:-1, tvg-logo="https://static.epg.best/in/Aastha.in.png",aastha tv
 http://103.141.66.36/bpk-tv/10130/default/index.m3u8
 
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/40/Logo_of_Sun_Bangla.jpg",Sun Bangla
+http://stream-e30453a4b.nmbs.top/m3u/Bangladesh/dae2587638.m3u8
 
 
 
