@@ -30,10 +30,10 @@ http://ddn.amrbd.com:8081/live/ekattor-bd/playlist.m3u8
 http://tv.ebox.live:8080/live/dbc.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24
-http://103.205.133.42:1935/live/news24hd_720/index.m3u8
+http://103.214.202.218:8081/live/news24-24/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD
-http://103.205.133.42:1935/live/zee_bangla_hd_720/index.m3u8
+http://175.41.46.16:8081/hls/6.m3u8
 
 #EXTINF:-1 tvg-logo="https://kccl.tv/sites/default/files/Zee_Bangla_HD_Logo.jpg",Zee Bangla HD
 http://iptv.kitv.live:1935/live/Shari/MTV-P/124.m3u8
@@ -85,7 +85,7 @@ http://otv.ftpbd.net/streams/115/index.m3u8
 http://tv.ebox.live:8080/live/star-jalsha-movies.m3u8
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imagebe2ca8f50c9c4956.png",Zee Bangla Cinema
-http://103.115.159.38:8080/live/asifmtbsl/asifmtbsl/158.m3u8
+http://103.214.202.218:8081/live/zeebanglacinema-33/playlist.m3u8
 
 #EXTINF:1 tvg-logo="https://i.imgur.com/8HTCcDe.png",Sony Max
 http://otv.ftpbd.net/streams/109/index.m3u8
@@ -166,10 +166,10 @@ http://iptv.kitv.live:1935/live/Shari/MTV-P/167.m3u8
 http://220.158.149.14:9999/live/TV00000000000000000115@HHZT;LIVE
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imageab5309baa10a397c.png",Nat Geo People 
-https://cdn-laos.workpoint.news/hd-natgeopeople_720/index.m3u8
+https://cdnjt25.useetv.com/joss/15/natgeopeople/chunklist_b1344100_sleng_.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wpLsQVT.png",Nat Geo Wild 
-http://host4.dynns.com/wevelwe/90d14bbf53d14b018d4439ffba6be283.m3u8
+https://cdnjt25.useetv.com/joss/15/natgeowild/chunklist_b1344100_sleng_.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/SonyBBCEarth.in.png",Sony bbc earth HD
 http://103.49.168.172:8081/ebox/in_bbc_earth_hd/chunks.m3u8
