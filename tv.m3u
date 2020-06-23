@@ -206,7 +206,7 @@ http://iptv.kitv.live:1935/live/Shari/MTV-P/184.m3u8
 http://iptv.kitv.live:1935/live/Shari/MTV-P/170.m3u8
 
 #EXTINF:-1  tvg-logo="https://static.epg.best/in/CartoonNetwork.in.png",CARTOON NETWORK ustv
-https://cdnbpp1.useetv.com/joss/14/cartoonnetwork/chunklist_w1073351013_b684100_sleng_54935.m3u8
+http://103.135.208.14/live/ibox/bd/2.m3u8
 
 #EXTINF:1 tvg-logo="https://i.imgur.com/CPdrEIm.png",Cartoon Network Hindi
 http://stream-e30453a4b.nmbs.top/m3u/Kids/16d940210b.m3u8
