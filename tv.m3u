@@ -124,6 +124,12 @@ http://103.135.208.14/live/ibox/bd/94.m3u8
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/50/a8/5f/50a85fb712ed1516f8954223dc52fb8a.jpg",Zee cinema HD
 http://tv.ebox.live:8080/live/zee-cinema.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IDLUf7r.png",Bollywood Clasic
+http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodClassic/6.m3u8/Level(1677721)?start=LIVE&end=END
+
+#EXTINF:-1 tvg-logo="https://m.imgur.com/4O7CPFq.png",Bollywood TV
+http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodTVFilm/6.m3u8/Level(1677721)?start=LIVE&end=END
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/O00Jsl9.png",ZEE BOLLYWOOD
 https://edge01.iptv.digijadoo.net/live/zee_classic/chunks.m3u8
 
@@ -203,10 +209,13 @@ https://edge01.iptv.digijadoo.net/live/gaan_bangla/chunks.m3u8
 https://edge01.iptv.digijadoo.net/live/sangeet_bangla/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imagea33543f260e0df6b.png",Mastii 
-http://103.68.116.50/live/feed1011/index.m3u8
+http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5LsfS6h.png",TLC HD Hindi
 http://103.49.168.172:8081/ebox/in_tlc_hd/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6sbsbHc.png",Tom & Jerry Show
+https://ws.flv.nimo.tv/live/su1599512427554r538093ee8e9c2edd24251f82cda6fd16_high.flv?fluxustv.flv
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/CartoonNetwork.in.png",CARTOON NETWORK
 http://103.135.208.14/live/ibox/bd/2.m3u8
