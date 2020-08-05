@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/btv-world.jpg",BTV World
-https://itpolly.iptv.digijadoo.net/live/btv_world/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/btv_world/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/ntv.png",NTV
 https://edge01.iptv.digijadoo.net/live/ntv/chunks.m3u8
@@ -81,7 +81,7 @@ http://103.141.66.36/bpk-tv/10265/default/manifest.mpd
 
 #EXTINF:1 tvg-logo="https://static.epg.best/in/JalshaMovies.in.png",Jalsha Movies
 http://otv.ftpbd.net/streams/115/index.m3u8
-https://itpolly.iptv.digijadoo.net/live/jalsha_movies/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/jalsha_movies/chunks.m3u8
 
 #EXTINF:1 tvg-logo="https://static.epg.best/in/JalshaMovies.in.png",Jalsha Movies HD
 http://tv.ebox.live:8080/live/star-jalsha-movies.m3u8
@@ -116,7 +116,7 @@ http://tv.ebox.live:8080/live/star-gold-select.m3u8
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image43c0e0062d57475e.png" ,Star Gold 2
 http://103.135.208.14/live/ibox/bd/99.m3u8
-https://itpolly.iptv.digijadoo.net/live/movies_ok/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/movies_ok/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://s6.gifyu.com/images/imagef719ec83bcbf7a20.png" group-title="EBox2",& Pictures HD
 http://103.135.208.14/live/ibox/bd/94.m3u8
@@ -146,7 +146,7 @@ https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/68RuKLM.png",DW
-https://itpolly.iptv.digijadoo.net/live/dw/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/dw/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeNews.in.png",Zee News
 http://103.141.66.36/bpk-tv/10285/default/manifest.mpd
@@ -167,7 +167,7 @@ https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8?sd=10&
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/tl4uL9a.png",NHKWorld Japan
-https://itpolly.iptv.digijadoo.net/live/nhk_world/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/nhk_world/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/gb/DiscoveryChannel.uk.png",Discovery HD 
 http://tv.ebox.live:8080/live/colors-bangla.m3u8
@@ -224,7 +224,7 @@ http://103.135.208.14/live/ibox/bd/2.m3u8
 http://tv.ebox.live:8080/live/Sky-Sports-cric.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KARm3uR.png",Nick HD+
-https://itpolly.iptv.digijadoo.net/live/nick_hd/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/nick_hd/chunks.m3u8
 
 #EXTINF:1 tvg-logo="https://static.epg.best/in/Nick.in.png",Nick
 http://tv.ebox.live:8080/live/nick.m3u8
@@ -233,16 +233,16 @@ http://tv.ebox.live:8080/live/nick.m3u8
 https://bit.ly/2YdGIwK
 
 #EXTINF:1 tvg-logo=""https://i.imgur.com/DEu41tl.png",PTV News
-https://itpolly.iptv.digijadoo.net/live/ptv_news/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/ptv_news/chunks.m3u8
 
 #EXTINF:1 tvg-logo="https://i.imgur.com/W4KuSN3.png",Cheebies Asia
-https://itpolly.iptv.digijadoo.net/live/cbeebies_asia/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/cbeebies_asia/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/durantotv.png",Duronto TV
 http://103.49.168.172:8081/ebox/bd_duronto_tv/chunks.m3u8
 
 #EXTINF:1 tvg-logo="https://s4.gifyu.com/images/image54942a3647a21709.png",Maasranga
-https://itpolly.iptv.digijadoo.net/live/maasranga/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/maasranga/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/be/32/a6/be32a66c64716626d01188fa1dbc2ef2.jpg",Star Sports 1 HD
 http://tv.ebox.live:8080/live/starsports-1-hind.m3u8
@@ -281,7 +281,7 @@ http://tv.ebox.live:8080/live/ptvsports.m3u8
 http://43.230.123.21:8080/live/willow-cric.m3u8
 
 #EXTINF:1 tvg-logo="https://s4.gifyu.com/images/image7706cc8618fc9938.png",GTV
-http://itpolly.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8
+http://edge01.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/J5pj2eG.png",Sky Sports Mix
 http://tv.ebox.live:8080/live/Sky-Sports-Mix.m3u8
