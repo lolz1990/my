@@ -44,7 +44,7 @@ http://103.205.133.14/hls/ruposhibangla.m3u8
 https://edge01.iptv.digijadoo.net/live/star_jalsha_hd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD
-https://itpolly.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8
+https://edge01.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Dd_Bangla.PNG/180px-Dd_Bangla.png",DD Bangla
 http://103.141.66.36/bpk-tv/10336/default/manifest.mpd
@@ -74,7 +74,7 @@ http://tv.ebox.live:8080/live/sonyhd.m3u8
 https://sony247channels.akamaized.net/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne 
 
 #EXTINF:-1 tvg-logo="https://www.bizasialive.com/wp-content/uploads/2017/02/colorshd001.jpg ",Colors HD
-https://itpolly.iptv.digijadoo.net/live/colors_hd/chunks.m3u8
+https://edge01.iptv.digijadoo.net/live/colors_hd/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/dd_national.jpg",DD National
 http://103.141.66.36/bpk-tv/10265/default/manifest.mpd
