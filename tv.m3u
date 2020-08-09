@@ -35,7 +35,7 @@ http://103.214.202.218:8081/live/news24-24/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD
 http://tv.ebox.live:8080/live/zee-bangla.m3u8
-http://175.41.46.16:8081/hls/6.m3u8
+https://edge01.iptv.digijadoo.net/live/zee_bangla/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://s6.gifyu.com/images/image225ddda68974970a.png",Ruposhi Bangla
 http://103.205.133.14/hls/ruposhibangla.m3u8
