@@ -35,6 +35,8 @@ http://103.214.202.218:8081/live/news24-24/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD
 http://tv.ebox.live:8080/live/zee-bangla.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiUu8kWuQLwaVp3Fbis5Exy8xPo1HVX2xA_28UcPHY34E4ZKBN&usqp=CAU",Zee Bangla HD 
+http://103.214.202.218:8081/live/zeebanglahd-25/chunks.m3u8
 https://edge01.iptv.digijadoo.net/live/zee_bangla/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://s6.gifyu.com/images/image225ddda68974970a.png",Ruposhi Bangla
@@ -219,6 +221,9 @@ https://ws.flv.nimo.tv/live/su1599512427554r538093ee8e9c2edd24251f82cda6fd16_hig
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/CartoonNetwork.in.png",CARTOON NETWORK
 http://103.135.208.14/live/ibox/bd/2.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTriqQiQCfQXMvr_Ak8e-T7vwUSpXsdzf_OYg4S0bhmSXiMpPKv&usqp=CAU" group-title="Kids Channel",Cartoon Network HD (India) 
+http://45.249.187.238:8081/hls/new14.m3u8
 
 #EXTINF:1 tvg-logo="https://i.imgur.com/IpBivcg.png",Sky Sports Cricket
 http://tv.ebox.live:8080/live/Sky-Sports-cric.m3u8
