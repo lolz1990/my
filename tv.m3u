@@ -83,6 +83,7 @@ http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/26.ts
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image673943a179d97db2.png",SonyHD
 http://tv.ebox.live:8080/live/sonyhd.m3u8
+http://103.205.133.44:1935/live/sonyhdcm/chunklist_w2017054269.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.bizasialive.com/wp-content/uploads/2017/02/colorshd001.jpg ",Colors HD
 https://edge01.iptv.digijadoo.net/live/colors_hd/chunks.m3u8
