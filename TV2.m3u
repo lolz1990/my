@@ -146,7 +146,10 @@ https://edge01.iptv.digijadoo.net/live/channel_news/chunks.m3u8
 https://edge01.iptv.digijadoo.net/live/cnbc/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeNews.in.png",Zee News
 http://103.141.66.36/bpk-tv/10285/default/manifest.mpd
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/ABPAnanda.in.png",ABP Ananda
 https://edge01.iptv.digijadoo.net/live/abp_ananda/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imagea33543f260e0df6b.png",Mastii 
+http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MTV Beats" tvg-logo="https://i.imgur.com/UZ84Iv8.jpg" group-title="JADOO LIVE",MTV Beats
 https://edge01.iptv.digijadoo.net/live/mtv_beats/chunks.m3u8
