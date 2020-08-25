@@ -16,7 +16,7 @@ https://edge01.iptv.digijadoo.net/live/desh_tv/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="DEEPTO TV [BD]" tvg-logo="https://i.imgur.com/giqoc2X.jpg" group-title="JADOO LIVE",DEEPTO TV [BD]
 https://edge01.iptv.digijadoo.net/live/deepto_tv/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="DBC NEWS [BD]" tvg-logo="https://i.imgur.com/WmLw772.png" group-title="JADOO LIVE",DBC NEWS [BD]
-#EXTINF:-1 tvg-logo="http://10.16.100.244/files/ekattortv.png",Ekattor TV 
+#EXTINF:-1 tvg-logo="http://10.16.100.244/files/ekattortv.png",Ekattor TV (71) 
 http://103.49.168.172:8081/ebox/bd_ekattor_tv/chunks.m3u8
 https://edge01.iptv.digijadoo.net/live/dbc_news/chunks.m3u8
 #EXTINF:-1 tvg-id="RTTV(src07).in(m3u4u)" tvg-name="RTV [BD]" tvg-logo="https://i.imgur.com/UHd3eew.jpg" group-title="JADOO LIVE",RTV [BD]
