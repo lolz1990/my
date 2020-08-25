@@ -90,6 +90,7 @@ https://edge01.iptv.digijadoo.net/live/colors_hd/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/dd_national.jpg",DD National
 http://103.141.66.36/bpk-tv/10265/default/manifest.mpd
+https://edge01.iptv.digijadoo.net/live/dd_national/chunks.m3u8
 
 #EXTINF:1 tvg-logo="https://static.epg.best/in/JalshaMovies.in.png",Jalsha Movies
 https://edge01.iptv.digijadoo.net/live/jalsha_movies/chunks.m3u8
@@ -163,6 +164,9 @@ https://edge01.iptv.digijadoo.net/live/cnn/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/nl/AlJazeeraEnglish.nl.png",Al Jazeera
 https://edge01.iptv.digijadoo.net/live/al_jazeera/playlist.m3u8
+
+#EXTINF:-1 group-title="JADOO LIVE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/230px-CGTN.svg.png",CGTN
+https://itpolly.iptv.digijadoo.net/live/cctv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/News18India.in.png",News18
 https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8?sd=10&rebase=on&hdntl=~acl=%2f*~data=hdntl~hmac=665cdf608d16e4dc095fa701b5943e475579f4817210c76179d4a731bb8e62f2
