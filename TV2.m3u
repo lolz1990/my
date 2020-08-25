@@ -84,7 +84,7 @@ https://edge01.iptv.digijadoo.net/live/star_plus_hd/chunks.m3u8
 #EXTINF:-1 tvg-id="StarBharat(src07).in(m3u4u)" tvg-name="STAR BHARAT" tvg-logo="https://i.imgur.com/GCibH6l.jpg" group-title="JADOO LIVE",STAR BHARAT
 https://edge01.iptv.digijadoo.net/live/star_bharat/chunks.m3u8
 #EXTINF:-1 tvg-id="ZeeTV(src07).in(m3u4u)" tvg-name="Zee TV HD" tvg-logo="https://i.imgur.com/xN5TNtJ.png" group-title="JADOO LIVE",Zee TV HD
-https://edge01.iptv.digijadoo.net/live/zee_tv/chunks.m3u8https://edge01.iptv.digijadoo.net/live/colors_infinity/playlist.m3u8
+https://edge01.iptv.digijadoo.net/live/zee_tv/chunks.m3u8
 #EXTINF:-1 tvg-id="StarGold(src07).in(m3u4u)" tvg-name="Star Gold" tvg-logo="https://i.imgur.com/3yFjd7k.jpg" group-title="JADOO LIVE",Star Gold
 https://edge01.iptv.digijadoo.net/live/star_gold_intl/chunks.m3u8
 #EXTINF:-1 tvg-id="StarGold(src07).in(m3u4u)" tvg-name="Star Gold HD" tvg-logo="https://i.imgur.com/DRImUvN.jpg" group-title="JADOO LIVE",Star Gold HD
