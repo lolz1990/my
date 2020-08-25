@@ -84,31 +84,18 @@ https://edge01.iptv.digijadoo.net/live/star_plus_hd/chunks.m3u8
 #EXTINF:-1 tvg-id="StarBharat(src07).in(m3u4u)" tvg-name="STAR BHARAT" tvg-logo="https://i.imgur.com/GCibH6l.jpg" group-title="JADOO LIVE",STAR BHARAT
 https://edge01.iptv.digijadoo.net/live/star_bharat/chunks.m3u8
 #EXTINF:-1 tvg-id="ZeeTV(src07).in(m3u4u)" tvg-name="Zee TV HD" tvg-logo="https://i.imgur.com/xN5TNtJ.png" group-title="JADOO LIVE",Zee TV HD
-https://edge01.iptv.digijadoo.net/live/zee_tv/chunks.m3u8
-#EXTINF:-1 tvg-id="StarWorldARB(src02).misc(m3u4u)" tvg-name="STAR WORLD" tvg-logo="https://i.imgur.com/7shBbvL.png" group-title="JADOO LIVE",STAR WORLD
-https://edge01.iptv.digijadoo.net/live/star_world/playlist.m3u8
-#EXTINF:-1 tvg-id="ComedyCentral(src07).in(m3u4u)" tvg-name="Comedy Central HD" tvg-logo="https://i.imgur.com/MOM8eCT.png" group-title="JADOO LIVE",Comedy Central HD
-https://edge01.iptv.digijadoo.net/live/diva/chunks.m3u8
-#EXTINF:-1 tvg-id="ColorsInfinity(src07).in(m3u4u)" tvg-name="Colors Infinity" tvg-logo="https://i.imgur.com/HS9It3H.png" group-title="JADOO LIVE",Colors Infinity
-https://edge01.iptv.digijadoo.net/live/colors_infinity/playlist.m3u8
+https://edge01.iptv.digijadoo.net/live/zee_tv/chunks.m3u8https://edge01.iptv.digijadoo.net/live/colors_infinity/playlist.m3u8
 #EXTINF:-1 tvg-id="StarGold(src07).in(m3u4u)" tvg-name="Star Gold" tvg-logo="https://i.imgur.com/3yFjd7k.jpg" group-title="JADOO LIVE",Star Gold
 https://edge01.iptv.digijadoo.net/live/star_gold_intl/chunks.m3u8
 #EXTINF:-1 tvg-id="StarGold(src07).in(m3u4u)" tvg-name="Star Gold HD" tvg-logo="https://i.imgur.com/DRImUvN.jpg" group-title="JADOO LIVE",Star Gold HD
 https://edge01.iptv.digijadoo.net/live/star_gold/playlist.m3u8
-#EXTINF:-1 tvg-id="StarGold(src07).in(m3u4u)" tvg-name="Star Gold 2" tvg-logo="https://i.imgur.com/e053RWs.png" group-title="JADOO LIVE",Star Gold 2
-https://edge01.iptv.digijadoo.net/live/movies_ok/chunks.m3u8
+
 #EXTINF:-1 tvg-id="ZeeCinema(src07).in(m3u4u)" tvg-name="Zee Cinema" tvg-logo="https://i.imgur.com/XDLU8Vy.jpg" group-title="JADOO LIVE",Zee Cinema
 https://edge01.iptv.digijadoo.net/live/zee_cinema/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Zee Bollywood" tvg-logo="https://i.imgur.com/5zKkg9B.jpg" group-title="JADOO LIVE",Zee Bollywood
 https://edge01.iptv.digijadoo.net/live/zee_classic/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MANORANJAN" tvg-logo="https://i.imgur.com/izPPP72.jpg" group-title="JADOO LIVE",MANORANJAN
 https://edge01.iptv.digijadoo.net/live/manoranjan/chunks.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Movies Now" tvg-logo="https://i.imgur.com/qowJChe.jpg?1" group-title="JADOO LIVE",Movies Now
-https://edge01.iptv.digijadoo.net/live/movies_now/chunks.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="LOTUS MACAU" tvg-logo="https://i.imgur.com/rAsgU76.jpg" group-title="JADOO LIVE",LOTUS MACAU
-https://edge01.iptv.digijadoo.net/live/macau_lotus/chunks.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="FYI TV 18" tvg-logo="https://i.imgur.com/BlQG8Yn.jpg" group-title="JADOO LIVE",FYI TV 18
-https://edge01.iptv.digijadoo.net/live/fyi_hd/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="NGC" tvg-logo="https://i.imgur.com/gQuUBTU.png" group-title="JADOO LIVE",NGC
 https://edge01.iptv.digijadoo.net/live/nat_geo_in/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="NAT GEO WILD" tvg-logo="https://i.imgur.com/13VA7Sh.jpg" group-title="JADOO LIVE",NAT GEO WILD
