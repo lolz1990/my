@@ -328,7 +328,7 @@ http://62.210.127.9:25461/AqUvqsEHKbpn0eRj/y0VCWGXmxHZ3dkmV/28803?play_token=P3g
 
 https://edge01.iptv.digijadoo.net/live/nick_hd/chunks.m3u8 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logo_Disney_XD.svg/1280px-Logo_Disney_XD.svg.png" group-title="KIDS ENT.",Disney XD 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logo_Disney_XD.svg/1280px-Logo_Disney_XD.svg.png" group-title="KIDS",Disney XD 
 http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/65.ts 
 
  
@@ -408,7 +408,7 @@ http://tv.ebox.live:8080/live/star-jalsha-movies.m3u8
 
  
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hAmFkQB.jpg" group-title="BANGLA MOVIES.",Jalsha Movies HD [IN] 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hAmFkQB.jpg" group-title="BANGLA MOVIES",Jalsha Movies HD [IN] 
 http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/25.ts 
 
  
