@@ -4,43 +4,43 @@
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="CHANNEL I [BD]" tvg-logo="https://i.imgur.com/nYRFnW5.png" group-title="BANGLADESHI CHANNELS",CHANNEL I [BD] 
 
-https://edge01.iptv.digijadoo.net/live/channel_i/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/channel_i/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="DEEPTO TV [BD]" tvg-logo="https://i.imgur.com/giqoc2X.jpg" group-title="BANGLADESHI CHANNELS",DEEPTO TV [BD] 
 
-https://edge01.iptv.digijadoo.net/live/deepto_tv/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/deepto_tv/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="RTTV(src07).in(m3u4u)" tvg-name="RTV [BD]" tvg-logo="https://i.imgur.com/UHd3eew.jpg" group-title="BANGLADESHI CHANNELS",RTV [BD] 
 
-https://edge01.iptv.digijadoo.net/live/rtv/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/rtv/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="BanglaVision.us(m3u4u)" tvg-name="BANGLA VISION [BD]" tvg-logo="https://i.imgur.com/00HdGFD.jpg" group-title="BANGLADESHI CHANNELS",BANGLA VISION [BD] 
 
-https://edge01.iptv.digijadoo.net/live/bangla_vision/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/bangla_vision/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MY TV [BD]" tvg-logo="https://i.imgur.com/TWuzjbg.jpg" group-title="BANGLADESHI CHANNELS",MY TV [BD] 
 
-https://edge01.iptv.digijadoo.net/live/my_tv/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/my_tv/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MAASRANGA TV [BD]" tvg-logo="https://i.imgur.com/zsahmn3.jpg" group-title="BANGLADESHI CHANNELS",MAASRANGA TV [BD] 
 
-https://edge01.iptv.digijadoo.net/live/maasranga/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/maasranga/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="CHANNEL 9 [BD]" tvg-logo="https://i.imgur.com/sTDSKGR.png" group-title="BANGLADESHI CHANNELS",CHANNEL 9 [BD] 
 
-https://edge01.iptv.digijadoo.net/live/channel_9/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/channel_9/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="GAZI TV [BD]" tvg-logo="https://i.imgur.com/Z0aOgZr.jpg" group-title="BANGLADESHI CHANNELS",GAZI TV [BD] 
 
-https://edge01.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="ASIAN TV [BD]" tvg-logo="https://i.imgur.com/yGgvoxY.png" group-title="BANGLADESHI CHANNELS",ASIAN TV [BD] 
 
-https://edge01.iptv.digijadoo.net/live/asian_tv/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/asian_tv/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="SA TV [BD]" tvg-logo="https://i.imgur.com/PC5QaK3.jpg" group-title="BANGLADESHI CHANNELS",SA TV [BD] 
 
-https://edge01.iptv.digijadoo.net/live/sa_tv/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/sa_tv/chunks.m3u8 
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="DURONTO TV [BD]" tvg-logo="https://i.imgur.com/EG2QRMG.png" group-title="BANGLADESHI CHANNELS",DURONTO TV [BD] 
 
@@ -75,7 +75,7 @@ http://45.249.187.238:8081/hls/new8.m3u8
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png" group-title="BANGLA INDIAN CHANNELS",Star Jalsha HD  
 
-https://robi.iptv.digijadoo.net/live/star_jalsha_hd/playlist.m3u8 
+http://robi.iptv.digijadoo.net/live/star_jalsha_hd/playlist.m3u8 
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png" group-title="BANGLA INDIAN CHANNELS",Star Jalsha HD   
 
@@ -89,7 +89,7 @@ http://103.135.208.14/live/ibox/bd/3.m3u8
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg " group-title="BANGLA INDIAN CHANNELS",Colors Bangla HD 
 
-https://edge01.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8 
+http://robi.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8 
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg " group-title="BANGLA INDIAN CHANNELS",Colors Bangla HD   
 
@@ -142,7 +142,7 @@ http://175.41.46.15/10.flv
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/H9OZgxA.png" group-title="BANGLADESHI NEWS",NEWS 24 [BD] 
 
-https://edge01.iptv.digijadoo.net/live/news_24_hd/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/news_24_hd/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/H9OZgxA.png" group-title="BANGLADESHI NEWS",News 24 
 http://45.249.187.238:8081/hls/live4.m3u8 
@@ -182,13 +182,13 @@ https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8?sd=10&
 # WORLD NEWS HD  
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fRivJD3.jpg" group-title="WORLD NEWS",Al Jazeera 
-https://edge01.iptv.digijadoo.net/live/al_jazeera/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/al_jazeera/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LD1Lj0v.png" group-title="WORLD NEWS",DW 
-https://edge01.iptv.digijadoo.net/live/dw/playlist.m3u8  
+http://robi.iptv.digijadoo.net/live/dw/playlist.m3u8  
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HuQij93.png" group-title="WORLD NEWS",NHK WORLD 
-https://edge01.iptv.digijadoo.net/live/nhk_world/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/nhk_world/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pu2mgFa.jpg" group-title="WORLD NEWS",Fox News 
 http://1111296894.rsc.cdn77.org/ls-54548-2/tracks-v1a1/mono.m3u8?@amarnettv.live 
@@ -231,7 +231,7 @@ https://watchindia.net:8443/live/66440/46279/1969.ts
 
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1164132839710838784/LHQ31mtM_400x400.jpg " group-title="HINDI CHANNELS",STAR PLUS HD 
 
-https://edge01.iptv.digijadoo.net/live/star_plus_hd/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/star_plus_hd/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1164132839710838784/LHQ31mtM_400x400.jpg " group-title="HINDI CHANNELS",Star Plus HD  
 
@@ -257,7 +257,7 @@ http://103.214.202.218:8081/live/zeetv-31/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png" group-title="HINDI CHANNELS",COLORS HD  
 
-https://edge01.iptv.digijadoo.net/live/colors_hd/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/colors_hd/chunks.m3u8 
 
  
 
@@ -294,7 +294,7 @@ https://watchindia.net:8443/live/66440/46279/786.ts?@amarnettv.live
 http://103.214.202.218:8081/live/satmax-37/playlist.m3u8 
 
 #EXTINF:0 tvg-logo="https://i.imgur.com/WaZyAOE.png" group-title="BANGLA MUSIC",Gaan Bangla 
-https://edge01.iptv.digijadoo.net/live/gaan_bangla/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/gaan_bangla/chunks.m3u8 
 
  
 
@@ -326,7 +326,7 @@ http://62.210.127.9:25461/AqUvqsEHKbpn0eRj/y0VCWGXmxHZ3dkmV/28803?play_token=P3g
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KARm3uR.png" group-title="KIDS",Nick HD+ 
 
-https://edge01.iptv.digijadoo.net/live/nick_hd/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/nick_hd/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logo_Disney_XD.svg/1280px-Logo_Disney_XD.svg.png" group-title="KIDS",Disney XD 
 http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/65.ts 
@@ -353,7 +353,7 @@ https://watchindia.net:8443/live/66440/46279/788.ts
 
 #EXTINF:-1 tvg-logo="https://www.nicepng.com/png/detail/248-2482573_hindi-movies-hd-star-gold-channel-live-tv.png" group-title="HINDI MOVIES",STAR GOLD HD 
 
-https://edge01.iptv.digijadoo.net/live/star_gold/chunks.m3u8 
+http://robi.iptv.digijadoo.net/live/star_gold/chunks.m3u8 
 
 #EXTINF:0 tvg-logo="https://i.imgur.com/0x9LfCI.png" group-title="HINDI MOVIES",Star Gold HD 
 http://tv.ebox.live:8080/live/star-gold.m3u8  
@@ -484,7 +484,7 @@ https://watchindia.net:8443/live/66440/46279/789.ts
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XvlPBV4.png" group-title="INFOTAINMENT & LIFESTYLE",History TV HD [ENGLISH]  
 
-https://edge01.iptv.digijadoo.net/live/history_tv_hd/playlist.m3u8?@amarnettv.live 
+http://robi.iptv.digijadoo.net/live/history_tv_hd/playlist.m3u8?@amarnettv.live 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XvlPBV4.png" group-title="INFOTAINMENT & LIFESTYLE",History TV HD [HINDI]  
 
