@@ -52,6 +52,11 @@ http://103.205.133.14/hls/ruposhibangla.m3u8
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD
 http://robi.iptv.digijadoo.net/live/star_jalsha_hd/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD
+http://ctgiptv.kitv.live:1935/live/test/test1/27.m3u8
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD
+http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/22.ts
+
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD
 http://robi.iptv.digijadoo.net/live/colors_bangla_hd/playlist.m3u8
