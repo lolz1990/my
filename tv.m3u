@@ -93,6 +93,7 @@ http://103.107.160.20:8081/amrbd/starjalsha/chunks.m3u8
 http://tv.ebox.live:8080/live/star-jalsha.m3u8
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(kitv)
 http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/22.ts
+http://iptv.kitv.live:1935/live/Shari/MTV-P/22.m3u8
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha SD
 http://103.205.133.14/hls/chsj.m3u8
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha(icc)
@@ -248,10 +249,13 @@ https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8?@ama
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7kavMAI.png" group-title="WORLD NEWS",Wion TV
 http://z5amshls.akamaized.net/wion/tracks-v2a1/playlist.m3u8
 
+#EXTINF:-1 tvg-id="504" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_News.png" group-title="News",Zee News
+http://iptv.mirrorace.net/?channelid=504 
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/gb/BBCNews.uk.png",BBC World News
 http://iptv.kitv.live:1935/live/Shari/MTV-P/56.m3u8
 http://203.162.235.41:16917
+http://iptv.mirrorace.net/?channelid=1431
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/CNNIntl.in.png",CNN
 
@@ -285,11 +289,11 @@ http://tv.ebox.live:8080/live/natg.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/SonyBBCEarth.in.png",Sony bbc earth HD
-http://103.49.168.172:8081/ebox/in_bbc_earth_hd/chunks.m3u8
+http://iptv.mirrorace.net/?channelid=821
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/SonyBBCEarth.in.png",SONY BBC EARTH HD 
 http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/62.ts
-
+http://iptv.kitv.live:1935/live/Shari/MTV-P/62.m3u8
 #EXTINF:1 tvg-logo="https://i.imgur.com/25ETmcG.png",Sony PIX HD
 http://tv.ebox.live:8080/live/sony-pix.m3u8
 
@@ -304,7 +308,7 @@ http://103.214.202.218:8081/live/animalplanet-13/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/HistoryTV18.in.png",History tv
 http://103.47.132.165/PLTV/88888888/224/3221227335/2.m3u8
 http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/86.ts
-
+http://iptv.mirrorace.net/?channelid=578
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_eYsv-q4vU_KRGbPHDz2MK0vcAdnFOqCzFA&usqp=CAU" group-title="Information Channel",Discovery History
 http://178.132.3.162:88/Discovery_History/mono.m3u8?token=test
 
@@ -331,6 +335,7 @@ https://ws.flv.nimo.tv/live/su1599512427554r538093ee8e9c2edd24251f82cda6fd16_hig
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/CartoonNetwork.in.png",CARTOON NETWORK
 http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/64.ts
+http://iptv.mirrorace.net/?channelid=816
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTriqQiQCfQXMvr_Ak8e-T7vwUSpXsdzf_OYg4S0bhmSXiMpPKv&usqp=CAU" group-title="Kids Channel",Cartoon Network HD (India) 
 http://45.249.187.238:8081/hls/new14.m3u8
@@ -343,7 +348,8 @@ http://62.210.127.9:25461/AqUvqsEHKbpn0eRj/y0VCWGXmxHZ3dkmV/28803?play_token=P3g
 #EXTINF:1 tvg-logo="https://i.imgur.com/IpBivcg.png",Sky Sports Cricket
 http://tv.ebox.live:8080/live/Sky-Sports-cric.m3u8
 
-
+#EXTINF:-1 tvg-id="1226" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Nick_HD+.png" group-title="Kids",Nick HD+
+http://iptv.mirrorace.net/?channelid=1226 
 
 #EXTINF:1 tvg-logo="https://static.epg.best/in/Nick.in.png",Nick
 http://tv.ebox.live:8080/live/nick.m3u8
