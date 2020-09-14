@@ -306,6 +306,7 @@ https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/68RuKLM.png",DW
+http://iptv.kitv.live:1935/live/Shari/MTV-P/101.m3u8
 https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8?@amarnettv.live
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7kavMAI.png" group-title="WORLD NEWS",Wion TV
@@ -408,7 +409,8 @@ http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8
 http://45.249.187.238:8081/hls/new12.m3u8
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imagea33543f260e0df6b.png",Mastii 
 http://iptv.kitv.live:1935/live/Shari/MTV-P/78.m3u8
-
+#EXTINF:-1, tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/pk-8xm-5225.jpg" 8XM HD
+http://iptv.kitv.live:1935/live/Shari/MTV-P/72.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5LsfS6h.png",TLC HD Hindi
 http://iptv.kitv.live:1935/live/Shari/MTV-P/45.m3u8
