@@ -116,7 +116,12 @@ http://mhdtvworld.net:80/xyz/zee5m3u8.m3u8?c=http://z5ams.akamaized.net/zeebangl
 
 #EXTINF:-1 tvg-logo="https://s6.gifyu.com/images/image225ddda68974970a.png",Ruposhi Bangla
 http://103.205.133.14/hls/ruposhibangla.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Dd_Bangla.PNG/180px-Dd_Bangla.PNG" group-title="Indian Bangla Entertainment ",DD Bangla
+https://load.airtelxstream.in/ddbangla/smil:common.smil/chunklist.m3u8
 
+#EXTINF:-1 ,Star Jalsha
+http://tvuk3.technohaat.com:6636/StarJalsha/video.m3u8?token=2-QvSjSlX2
+https://youtu.be/a50gLTFzO60
 
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(ebox)
