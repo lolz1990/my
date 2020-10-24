@@ -5,7 +5,7 @@
 http://103.205.133.50/hls/btvworld.m3u8 
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/ntv.png",NTV  
-
+http://103.205.133.50/hls/ntv.m3u8
 http://103.49.168.172:8081/ebox/bd_ntv/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/atnbangla.png",ATN Bangla  
@@ -59,6 +59,9 @@ http://103.49.168.172:8081/ebox/bd_news24/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD  
 
 http://tv2.ebox.live:8080/live/zee-bangla.m3u8 
+http://43.230.123.21:8080/live/zee-bangla.m3u8
+http://global.thunderbd.com/34/tracks-v1a1/mono.m3u8
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.ts
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(ebox)  
 
