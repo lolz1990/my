@@ -58,6 +58,7 @@ http://103.49.168.172:8081/ebox/bd_news24/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD  
 http://tvuk3.technohaat.com:6636/zeebanglahd/video.m3u8?token=2-QvSjSlX2
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.m3u8
 http://tv2.ebox.live:8080/live/zee-bangla.m3u8 
 http://43.230.123.21:8080/live/zee-bangla.m3u8
 http://global.thunderbd.com/34/tracks-v1a1/mono.m3u8
@@ -68,13 +69,14 @@ http://global.thunderbd.com/36/tracks-v1a1/mono.m3u8
 http://tv2.ebox.live:8080/live/star-jalsha.m3u8 
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD 
-
 http://tvuk3.technohaat.com:6636/StarJalsha/video.m3u8?token=2-QvSjSlX2 
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/27.m3u8
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD  
 
 http://tv2.ebox.live:8080/live/colors-bangla.m3u8   
-
+https://yuppcatchup.akamaized.net/preview/etvbengali/2500.m3u8
+http://103.205.133.50/hls/etvbangla.m3u8
  
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Dd_Bangla.PNG/180px-Dd_Bangla.PNG" group-title="Indian Bangla Entertainment ",DD Bangla  
@@ -89,25 +91,33 @@ https://abp-i.akamaihd.net/hls/live/765530/abpananda/masterhls_1564.m3u8
 
  
 
-#EXTINF:-1 tvg-logo="http://calcuttanews.tv/wp-content/uploads/2017/04/ctvnlogo-1.png" group-title="BANGLA ENT.",Calcutta News [IN] 
-
+#EXTINF:-1 tvg-logo="http://calcuttanews.tv/wp-content/uploads/2017/04/ctvnlogo-1.png" group-title="Indian Bangla",Calcutta News
+https://d39iawgzv3h0yo.cloudfront.net/out/v1/1ef4344a3b4a41908915d58ac7bd5e23/index_14.m3u8
 https://amarnettv.github.io/channels/cnews.m3u8 
 
 #EXTINF:-1 tvg-logo="https://www.nicepng.com/png/detail/248-2482573_hindi-movies-hd-star-gold-channel-live-tv.png",STAR GOLD HD  
-
+http://dx3.gcdn.co/hindi-STARGOLDHDindia/tracks-v1a1/mono.m3u8
 http://tv2.ebox.live:8080/live/star-gold.m3u8 
 
+#EXTINF:0 tvg-logo="https://i.imgur.com/0x9LfCI.png" group-title="Indian",118.Star Gold HD
+http://dx3.gcdn.co/hindi-STARGOLDHDindia/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xPHRJa9.png",Sony Max HD  
-
+http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8
 http://tv2.ebox.live:8080/live/sony-max.m3u8 
+#EXTINF:-1 tvg-logo="https://lh4.ggpht.com/VgC9dPgUeUmzCD1F8amDyMxYcIyEjaTKStULFlwY5wiidPb_wDCt95x_maC_E5t5lNoP",Sony Max
+https://load.airtelxstream.in/sonymax/smil:common.smil/chunklist_b364000_sleng.m3u8
 
+#EXTINF:-1 tvg-logo="https://www.bestmediainfo.com/wp-content/uploads/2016/06/SONY-WAH-LOGO.jpg",Sony Wah
+https://load.airtelxstream.in/sonywah/smil:common.smil/chunklist_b896000_sleng.m3u8
  
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/50/a8/5f/50a85fb712ed1516f8954223dc52fb8a.jpg",Zee cinema HD  
-
+https://y5w8j4a9.ssl.hwcdn.net/zcinemahd/index.m3u8
+http://z5amshls.akamaized.net:80/zcinemahd/tracks-v1a1/playlist.m3u8
 http://tv2.ebox.live:8080/live/zee-cinema.m3u8 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uAVqCOq.png" ,Sony Max 2  
-
+http://dx3.gcdn.co/hindi-SONYMAX2/index.m3u8
 http://tv2.ebox.live:8080/live/sony-max-2.m3u8 
 
  
@@ -125,31 +135,36 @@ http://global.thunderbd.com/31/tracks-v1a1/mono.m3u8
 http://tv2.ebox.live:8080/live/star-jalsha-movies.m3u8 
 #EXTINF:1 tvg-logo="https://static.epg.best/in/JalshaMovies.in.png",Jalsha Movies HD  
 https://ott.bingebd.com/live/ngrp:BNMQ007-asWQdt-FQRdgJL-03as-f7as-1ffd2-t16920a-sgh32x-zp3e-dsf-3b7QQaa-ort_621h_MCXYyoq_e2209TY1_jalsha_moviestywer_945DF80_sj006568FGQW_uiWQou_f36erTRxty_foTR63089_YUQW/chunklist.m3u8
- 
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_UCQ8r1-2dWimt7roVLe36t5hW6mayouhdA&usqp=CAU" group-title="Indian Bangla",96.Zee Bangla Cinema [1]
+http://z5amshls.akamaized.net/zbanglacnm/tracks-v1a1/index.m3u8
+https://y5w8j4a9.ssl.hwcdn.net/zbanglacnm/tracks-v1a1/index.m3u8
 
  
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image673943a179d97db2.png",SonyHD  
-
+http://dx3.gcdn.co/hindi-SONYHD/index.m3u8
 https://ott.bingebd.com/live/ngrp:BNMQ-asdt-s67TREKL-03as-f7as-1ffd2-t1682a-sQPO-zp3e-dsf-3b7aa-ort_621h_SKLtyoq_enTY126_sonyGRE009_980_sjdFFfhSS_uiou_f36erxty_fort63_ASDP/chunklist.m3u8
 http://tv2.ebox.live:8080/live/sonyhd.m3u8 
-
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStrzJaFx8EVmM-UfOeSVVlPSiwnflHvpRDQ9WyLiHgPAfdR2GU&usqp=CAU" group-title="Hinde Movies",Colors Cineplex HD
+http://dx3.gcdn.co/hindi-COLORSCINEPLEXHD/index.m3u8
 #EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/480/270/languages/SONY_TV_HD.jpg",Sony TV HD   
 
 http://103.49.168.172:8081/ebox/in_sonytv_hd/chunks.m3u8 
 
 #EXTINF:0 tvg-logo="https://d36mpatsggudpt.cloudfront.net/images/logo-new.png" group-title="HINDI CHANNELS",Sony SAB HD   
-
+http://dx3.gcdn.co/hindi-SONYSABHD/index.m3u8
 http://tv2.ebox.live:8080/live/sony-sab.m3u8 
 
- 
+#EXTINF:0 tvg-logo="https://i.imgur.com/KVi7HUw.png" group-title="Indian",116.Star Plus HD
+http://dx3.gcdn.co/hindi-STARPLUSHD/index.m3u8?token=soheliptv01826655778
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Zee_TV-2018.png",Zee TV HD 
-
+http://dx3.gcdn.co/hindi-ZEETVHD/index.m3u8
 http://tv2.ebox.live:8080/live/zee-tv.m3u8 
 
 #EXTINF:-1 tvg-logo="https://www.bizasialive.com/wp-content/uploads/2017/02/colorshd001.jpg ",Colors HD  
-
+http://dx3.gcdn.co/hindi-COLORSHD/index.m3u8
 http://tv2.ebox.live:8080/live/colors.m3u8 
 
 #EXTINF:-1 tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/dd_national.jpg",DD National  
@@ -311,7 +326,7 @@ http://tv2.ebox.live:8080/live/starsportsselect-1.m3u8
 http://tv2.ebox.live:8080/live/starsportsselect-2.m3u8 
 
 #EXTINF:1 tvg-logo="https://tv.bdtype.com/uploads/tv_image/sony-ten-1.png",Ten 1 HD  
-
+https://load.airtelxstream.in/sonyten1hd/smil:common.smil/chunklist.m3u8
 http://tv2.ebox.live:8080/live/sonyten-1.m3u8 
 
 #EXTINF:1 tvg-logo="https://i.imgur.com/Nzue5Z0.png",Sony Ten 2 HD  
