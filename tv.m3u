@@ -6,6 +6,7 @@ http://103.205.133.50/hls/btvworld.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/ntv.png",NTV  
 http://103.205.133.50/hls/ntv.m3u8
+#EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/ntv.png",NTV 
 http://103.49.168.172:8081/ebox/bd_ntv/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/atnbangla.png",ATN Bangla  
@@ -43,39 +44,45 @@ http://tv2.ebox.live:8080/live/rtv.m3u8
 http://tv2.ebox.live:8080/live/chi.m3u8 
 
 #EXTINF:-1 tvg-logo="http://10.16.100.244/files/ekattortv.png",Ekattor TV  
-
 http://103.49.168.172:8081/ebox/bd_ekattor_tv/chunks.m3u8 
 
- 
+#EXTINF:-1 tvg-logo="http://10.16.100.244/files/ekattortv.png",Ekattor TV 
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/11.m3u8
+#EXTINF:-1 tvg-logo="http://10.16.100.244/files/ekattortv.png",Ekattor TV 
+https://ott.bingebd.com/live/ngrp:ekattor_tv_all/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24 
-
 http://tv2.ebox.live:8080/live/ex-news24-20.m3u8 
 
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24 
-
 http://103.49.168.172:8081/ebox/bd_news24/chunks.m3u8 
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD  
 http://tvuk3.technohaat.com:6636/zeebanglahd/video.m3u8?token=2-QvSjSlX2
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.m3u8
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://tv2.ebox.live:8080/live/zee-bangla.m3u8 
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://43.230.123.21:8080/live/zee-bangla.m3u8
-http://global.thunderbd.com/34/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.ts
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(ebox)  
-http://global.thunderbd.com/36/tracks-v1a1/mono.m3u8
 http://tv2.ebox.live:8080/live/star-jalsha.m3u8 
+http://global.thunderbd.com/36/tracks-v1a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD 
 http://tvuk3.technohaat.com:6636/StarJalsha/video.m3u8?token=2-QvSjSlX2 
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD 
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/27.m3u8
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD  
-
 http://tv2.ebox.live:8080/live/colors-bangla.m3u8   
+#EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD 
 https://yuppcatchup.akamaized.net/preview/etvbengali/2500.m3u8
+#EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla SD 
 http://103.205.133.50/hls/etvbangla.m3u8
  
 
