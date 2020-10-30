@@ -263,7 +263,7 @@ http://103.49.168.172:8081/ebox/in_dw/chunks.m3u8
 
 http://z5amshls.akamaized.net/wion/tracks-v2a1/playlist.m3u8 
 
-#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeNews.in.png",DW  
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeNews.in.png",Zee news  
 https://load.airtelxstream.in/zeenews/smil:common.smil/chunklist_b896000_DVR_sleng.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/AusIPTV/IPTVLogos/master/cgtn_logo.png" group-title="24/7 WORLD NEWS",CGTN (CN) (Opt-2)  
