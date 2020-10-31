@@ -122,7 +122,10 @@ https://ott.bingebd.com/live/ngrp:abp_ananda_all/chunklist.m3u8
 https://d39iawgzv3h0yo.cloudfront.net/out/v1/1ef4344a3b4a41908915d58ac7bd5e23/index_14.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.kolkatatv.org/assets/website/images/kolkata_tv.png" , Kolkata tv
+https://load.airtelxstream.in/kolkatatv/smil:common.smil/chunklist.m3u8
 
+#EXTINF:-1 tvg-logo="https://bengali.cdn.zeenews.com/bengali/desktop/logo/Zee-24Ghanta_Mob_career.png" group-title="News",Zee 24 Ghanta
+https://load.airtelxstream.in/zee24ghanta/smil:common.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.nicepng.com/png/detail/248-2482573_hindi-movies-hd-star-gold-channel-live-tv.png",STAR GOLD HD  
 http://tv2.ebox.live:8080/live/star-gold.m3u8 
@@ -218,9 +221,9 @@ http://tv2.ebox.live:8080/live/zee-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ZEE TV HD  " tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/zee-tv-hd-logo-300x300.jpg" group-title="HINDI. CH",ZEE TV HD  
 http://95.111.250.189:25461/live/Orangetv/745rony789/6533.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.bizasialive.com/wp-content/uploads/2017/02/colorshd001.jpg ",Colors HD  
+#EXTINF:-1 tvg-logo=""https://upload.wikimedia.org/wikipedia/commons/5/5c/Colors_tv2017.png",Colors HD  
 http://dx3.gcdn.co/hindi-COLORSHD/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.bizasialive.com/wp-content/uploads/2017/02/colorshd001.jpg ",Colors HD  
+#EXTINF:-1 tvg-logo=""https://upload.wikimedia.org/wikipedia/commons/5/5c/Colors_tv2017.png",Colors HD  
 http://tv2.ebox.live:8080/live/colors.m3u8 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/Colors_tv2017.png" group-title="Hinde Entertainment",Colors HD
 https://ott.bingebd.com:443/live/ngrp:colors_hd_all/chunklist.m3u8
@@ -238,9 +241,10 @@ https://live-hls-web-aje.getaj.net/AJE/03.m3u8?@amarnettv.live
 #EXTINF:-1 tvg-logo="https://static.epg.best/nl/AlJazeeraEnglish.nl.png",Al Jazeera 
 http://103.49.168.172:8081/ebox/aljazeera_news/chunks.m3u8 
 
-#EXTINF:-1 tvg-logo="https://static.epg.best/gb/BBCNews.uk.png",BBC World News  
+#EXTINF:-1 tvg-logo="https://static.epg.best/gb/News.uk.png",BBC World News  
 http://103.49.168.172:8081/ebox/bbc_news/chunks.m3u8 
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UxBVq6Z.png" group-title="CMCL TV",BBC News
+http://103.102.136.106:8080/cmcltv/tcm_bbc.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/CNNIntl.in.png",CNN  
 http://203.162.235.41:16918 
@@ -298,8 +302,10 @@ https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3
 https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp/index_2M.m3u8?@IPTVSolution 
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/gb/DiscoveryChannel.uk.png",Discovery HD   
-
 http://tv2.ebox.live:8080/live/discovery.m3u8 
+
+#EXTINF:-1 tvg-logo="https://static.epg.best/gb/DiscoveryChannel.uk.png",Discovery HD 
+https://livecdn.fptplay.net/qnetlive/discovery_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-logo="https://latestlearnerships.com/wp-content/uploads/2016/11/discovery-careers-jobs-internships-vacancies-learnership-programme-310x165.jpg" group-title="Documentary",Discovery HD Bangla  
 
@@ -309,6 +315,8 @@ https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
 
 https://streamitv.multitvsolution.in/idvo/discoveryhd.m3u8 
 
+#EXTINF:-1 tvg-logo="https://cms.cignal.tv/Upload/Images/Discovery-Asia.png" group-title="Khám Phá",Discovery Asia HD
+plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
  
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4Wfs9kj.png" group-title="Documentary",Discovery Science 
@@ -321,9 +329,16 @@ https://streamitv.multitvsolution.in/idvo/turboeng.m3u8
 
  
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png",Nat Geo   
-
+https://www.fanmingming.cn/hls/natlgeo.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png",Nat Geo 
+https://oxoo.lk21tvonlineid.com/m3u/natgeo.m3u8
+#EXTINF:-1 tvg-logo="http://i.imgur.com/z3SVeHB.png" group-title="Khám Phá",National Geographic HD
+plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png",Nat Geo
 http://220.158.149.14:9999/live/TV00000000000000000115@HHZT;LIVE 
 
+#EXTINF:-1  tvg-logo="https://i.ibb.co/CPg9BPY/natgeopeo.png" group-title="KNOWLEDGE",NatGeo-People 
+https://oxoo.lk21tvonlineid.com/m3u/natgeopeople.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/800px-Nat_Geo_Wild_logo.png" , Nat Geo Wild HD
 http://webo.asia/jVy4FsreTT/gossekt8nV/20860
 
@@ -340,7 +355,7 @@ https://streamitv.multitvsolution.in/idvo/aphdhindi.m3u8
 http://103.49.168.172:8081/ebox/in_animalplanet_hd/playlist.m3u8 
 
 #EXTINF:-1 tvg-id="" tvg-name="BBC Earth HD+" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/sony-bbc-earth-hd-logo-300x300.jpg" group-title="INFOTAINMENT",BBC Earth HD+
-http://95.111.250.189:25461/live/Orangetv/745rony789/6573.m3u8
+https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnqECoI8IWP-QiTPa6Cw6e22MegaQdFtq6M9TUH4ZYqGGabZZY&usqp=CAU" group-title="Information Channel",Sony BBC Earth HD
 https://ott.bingebd.com:443/live/ngrp:sony_bbc_earth_all/chunklist.m3u8
 
