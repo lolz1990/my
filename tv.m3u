@@ -76,28 +76,35 @@ http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.m3u8
 http://tv2.ebox.live:8080/live/zee-bangla.m3u8 
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://43.230.123.21:8080/live/zee-bangla.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiUu8kWuQLwaVp3Fbis5Exy8xPo1HVX2xA_28UcPHY34E4ZKBN&usqp=CAU" group-title="Indian Bangla Entertainment ",Zee Bangla HD
+http://mhdtvworld.net:80/xyz/zee5m3u8.m3u8?c=http://z5ams.akamaized.net/zeebanglahd/index.m3u8
+#EXTINF:-1 tvg-id="Zee Bangla" tvg-name="Zee Bangla" tvg-logo="https://i.imgur.com/9UFJ2nd.png" group-title="Kolkata Bangla",Zee Bangla
+https://ahmadabdullahrifat.shortcm.li/zeebangla
+#EXTINF:-1 tvg-id="" tvg-name="ZEE BANGLA HD " tvg-logo="https://i.imgur.com/GOamt6U.jpg" group-title="BANGLA CH.",ZEE BANGLA HD 
+http://digiiptv.ddns.net:25461/restream20/FR2csGYizY/865
 #EXTINF:-1 tvg-id="" tvg-name="ZEE BANGLA HD " tvg-logo="https://i.imgur.com/GOamt6U.jpg" group-title="BANGLA CH.",ZEE BANGLA HD 
 http://95.111.250.189:25461/live/Orangetv/745rony900/10600.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.ts
-
-
 #EXTINF:0 tvg-language="Bangla" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-100/zee-bangla-hd-logo.jpg" group-title="Entertainment",Zee Bangla HD
 http://global.thunderbd.com/34/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxiWBdL7Z_d89XQbHY6jO1cVwx2ZnRQG2JAlcfi_tzjcAkr2PL&usqp=CAU" group-title="Indian Bangla Entertainment ",Star Jalsha HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxiWBdL7Z_d89XQbHY6jO1cVwx2ZnRQG2JAlcfi_tzjcAkr2PL&usqp=CAU" group-title="Indian Bangla Enterteainment ",Star Jalsha HD (binge)
 https://ott.bingebd.com/live/ngrp:star_jalsha_hd_all/chunklist.m3u8
-#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD 
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(tvuk) 
 http://tvuk3.technohaat.com:6636/StarJalsha/video.m3u8?token=2-QvSjSlX2 
-#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD 
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(asnet) 
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/27.m3u8
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(ebox)  
 http://tv2.ebox.live:8080/live/star-jalsha.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Star_Jalsha_logo.jpg/220px-Star_Jalsha_logo.jpg" group-title="Entertainment",Star Jalsha SD (Opt-2)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Star_Jalsha_logo.jpg/220px-Star_Jalsha_logo.jpg" group-title="Entertainment",Star Jalsha SD
 http://master.beeiptv.com:8081/MB/starjalsha/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(ebox)
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(dflix) 
+http://tv.dflix.live:8082/36/index.m3u8
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(digiip) 
+http://digiiptv.ddns.net:25461/restream20/FR2csGYizY/193
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(thunderbd)
 http://global.thunderbd.com/36/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Colors_Bangla_Logo.jpg/120px-Colors_Bangla_Logo.jpg" group-title="Indian Bangla Entertainment ",Colors Bangla HD
@@ -202,6 +209,8 @@ https://y5w8j4a9.ssl.hwcdn.net/zbanglacnm/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image673943a179d97db2.png",SonyHD  
 http://dx3.gcdn.co/hindi-SONYHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/SET_India.jpg" group-title="Hinde Entertainment",Sony HD
+http://webo.asia/jVy4FsreTT/gossekt8nV/7935
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/SET_India.jpg" group-title="Hinde Entertainment",Sony HD
 https://ott.bingebd.com:443/live/ngrp:sony_all/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image673943a179d97db2.png",SonyHD  
