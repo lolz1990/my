@@ -82,6 +82,9 @@ http://95.111.250.189:25461/live/Orangetv/745rony900/10600.m3u8
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.ts
 
 
+#EXTINF:0 tvg-language="Bangla" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-100/zee-bangla-hd-logo.jpg" group-title="Entertainment",Zee Bangla HD
+http://global.thunderbd.com/34/tracks-v1a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxiWBdL7Z_d89XQbHY6jO1cVwx2ZnRQG2JAlcfi_tzjcAkr2PL&usqp=CAU" group-title="Indian Bangla Entertainment ",Star Jalsha HD
 https://ott.bingebd.com/live/ngrp:star_jalsha_hd_all/chunklist.m3u8
@@ -499,6 +502,9 @@ http://tv2.ebox.live:8080/live/gazi-tv.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/20/GTVBangladeshLogo.png/220px-GTVBangladeshLogo.png" group-title="Entertainment",Gazi TV (Opt-01)
 http://master.beeiptv.com:8081/MB/gtv/playlist.m3u8
+
+#EXTINF:0 tvg-language="Bangla" tvg-logo="https://i.pinimg.com/564x/c5/75/69/c57569d7d0ea0a7136150ec95dbf36f4.jpg" group-title="Entertainment",Gazi TV
+http://global.thunderbd.com/1/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/J5pj2eG.png",Sky Sports Mix
 
