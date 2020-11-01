@@ -94,6 +94,9 @@ http://tv2.ebox.live:8080/live/star-jalsha.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Star_Jalsha_logo.jpg/220px-Star_Jalsha_logo.jpg" group-title="Entertainment",Star Jalsha SD (Opt-2)
 http://master.beeiptv.com:8081/MB/starjalsha/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(ebox)
+http://global.thunderbd.com/36/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Colors_Bangla_Logo.jpg/120px-Colors_Bangla_Logo.jpg" group-title="Indian Bangla Entertainment ",Colors Bangla HD
 https://ott.bingebd.com:443/live/ngrp:colors_bangla_hd_all/chunklist.m3u8
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD  
