@@ -511,7 +511,7 @@ http://103.49.168.172:8081/ebox/bd_gazi/chunks.m3u8
 
 #EXTINF:1 tvg-logo="https://s4.gifyu.com/images/image7706cc8618fc9938.png",GTV 
 
-http://tv2.ebox.live:8080/live/gazi-tv.m3u8
+https://tinyurl.com/y54fqeuq
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/20/GTVBangladeshLogo.png/220px-GTVBangladeshLogo.png" group-title="Entertainment",Gazi TV (Opt-01)
 http://master.beeiptv.com:8081/MB/gtv/playlist.m3u8
