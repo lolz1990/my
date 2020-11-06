@@ -102,7 +102,7 @@ http://tv2.ebox.live:8080/live/star-jalsha.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Star_Jalsha_logo.jpg/220px-Star_Jalsha_logo.jpg" group-title="Entertainment",Star Jalsha SD
 http://master.beeiptv.com:8081/MB/starjalsha/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(dflix) 
-http://tv.dflix.live:8082/36/index.m3u8
+http://tv.dflix.live:8082/36/index.m3u8?token=e37bf99cb2795729529a73fe03c1d6dac7d22644-6ad76713a7d44a99e8c893a51865b93c-1604684899-1604674099
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(digiip) 
 http://digiiptv.ddns.net:25461/restream20/FR2csGYizY/193
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(thunderbd)
