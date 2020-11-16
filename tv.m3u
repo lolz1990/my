@@ -65,14 +65,13 @@ http://tv2.ebox.live:8080/live/ex-news24-20.m3u8
 #EXTINF:-1 tvg-logo="https://www.akashdth.com/assets/uploads/channels_images/news24.png",News 24 
 http://103.49.168.172:8081/ebox/bd_news24/chunks.m3u8 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiUu8kWuQLwaVp3Fbis5Exy8xPo1HVX2xA_28UcPHY34E4ZKBN&usqp=CAU" group-title="Indian Bangla Entertainment ",Zee Bangla HD
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_zee_banglaPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD  
+#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
+http://tv2.ebox.live:8080/live/zee-bangla.m3u8#EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD  
 http://tvuk3.technohaat.com:6636/zeebanglahd/video.m3u8?token=2-QvSjSlX2
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
-http://tv2.ebox.live:8080/live/zee-bangla.m3u8 
+https://ott.bingebd.com/live/ngrp:UHGrtTzwn-amdr-f74T357LLS-01aq-f9rt-9sez2-t1359b-xtr34r-lk9y-dkf-5s4AJS-ort_159e_jRE532hAS_AZLY5280_zee_banglaTRGX_9ty215SDE_s53IYLKH_prot_w53ekjdh_port43_DH/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://43.230.123.21:8080/live/zee-bangla.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiUu8kWuQLwaVp3Fbis5Exy8xPo1HVX2xA_28UcPHY34E4ZKBN&usqp=CAU" group-title="Indian Bangla Entertainment ",Zee Bangla HD
@@ -86,11 +85,12 @@ http://95.111.250.189:25461/live/Orangetv/745rony900/10600.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.ts
 #EXTINF:0 tvg-language="Bangla" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-100/zee-bangla-hd-logo.jpg" group-title="Entertainment",Zee Bangla HD
+http://master.beeiptv.com:8081/MB/zeebangla/playlist.m3u8
 http://global.thunderbd.com/34/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxiWBdL7Z_d89XQbHY6jO1cVwx2ZnRQG2JAlcfi_tzjcAkr2PL&usqp=CAU" group-title="Indian Bangla Enterteainment ",Star Jalsha HD (binge)
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_star_jalsha_hdPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+https://ott.bingebd.com/live/ngrp:UHGrtTzwn-amdr-f74T357LLS-01aq-f9rt-9sez2-t1359b-xtr34r-lk9y-dkf-5s4AJS-ort_159e_jRE532hAS_AZLY5280_star_jalsha_hdTRGX_9ty215SDE_s53IYLKH_prot_w53ekjdh_port43_DH/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(tvuk) 
 http://tvuk3.technohaat.com:6636/StarJalsha/video.m3u8?token=2-QvSjSlX2 
 #EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(asnet) 
@@ -361,11 +361,11 @@ http://ipdax.top:8080/hatmyx/hjghyut/10
 
  
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png",Nat Geo   
-https://www.fanmingming.cn/hls/natlgeo.m3u8
+http://tv2.ebox.live:8080/live/natg.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png",Nat Geo 
 https://oxoo.lk21tvonlineid.com/m3u/natgeo.m3u8
 #EXTINF:-1 tvg-logo="http://i.imgur.com/z3SVeHB.png" group-title="Khám Phá",National Geographic HD
-plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
+https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4duWidg.png",Nat Geo
 http://otv.ftpbd.net/streams/110/index.m3u8
 http://220.158.149.14:9999/live/TV00000000000000000115@HHZT;LIVE 
