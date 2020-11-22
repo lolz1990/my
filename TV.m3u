@@ -107,7 +107,7 @@ http://103.135.208.14:8082/36/index.m3u8?token=e47b4719347cf3dc2820827eccbefaa3c
 https://yuppcatchup.akamaized.net/preview/starjalsha/1800.m3u8
 
 #EXTINF:-1 tvg-id="75117" tvg-logo="https://sund-images.sunnxt.com/75117/200x200_4b19b530-f0bb-4b26-a9de-f3cdd5f8be20.jpg" group-title="Bengali",Sun Bangla
-https://suntvlive.s.llnwi.net/SunBangla/SunBangla.isml/.m3u8?p=55&se=1605995524&e=1606024324&h=939681a7b788c596d24d26a21afa23ff&type=hd&PlayBackId=1425989908&cid=75117&country=IN&userid=3157182&nid=0&q=&bw=&dw=0&op=SUNNXT&did=wuGgLm/s2KnXtGW1Qx/uLg==
+http://forum.knappily.com/sunnxt/live.php?c=75117
 
 #EXTINF:-1 tvg-logo="http://ihut.live/wp-content/uploads/2019/12/Colors-Bangla-HD.jpg ",Colors Bangla HD  
 http://tv2.ebox.live:8080/live/colors-bangla.m3u8   
