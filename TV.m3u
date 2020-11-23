@@ -75,7 +75,10 @@ http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/1.m3u8
 #EXTINF:-1 tvg-name="MAASRANGA TV [BD]" tvg-logo="https://i.imgur.com/zsahmn3.jpg" group-title="BANGLADESHI CHANNELS",MAASRANGA TV [BD] 
 http://tv2.ebox.live:8080/live/maasranga.m3u8
 
-
+#EXTINF: -1 tvg-logo="https://i.imgur.com/3tPwWsL.jpg" group-title="INDIAN BANGLA", Zee Bangla HD
+http://163.172.29.246:8081/globalbd/zeebangla/chunks.m3u8?@asfaiptv
+#EXTINF: -1 tvg-logo="https://i.imgur.com/3tPwWsL.jpg" group-title="INDIAN BANGLA", Zee Bangla
+https://wxca.cf/z/0-9-zeebangla/master.m3u8?signature=08881213920b70e9b8b6a685eb027d1c0c45f754&unique=c966bd997cfc76ae52255fbfe9521f04
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD 
 http://tv2.ebox.live:8080/live/zee-bangla.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/ZeeBangla.in.png",Zee Bangla HD  
