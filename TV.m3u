@@ -102,10 +102,10 @@ http://tv2.ebox.live:8080/live/star-jalsha.m3u8
 http://103.49.168.172:8081/ebox/in_starjalsha_hd/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Star_Jalsha_logo.jpg/220px-Star_Jalsha_logo.jpg" group-title="Entertainment",Star Jalsha SD(ICC)
 http://10.16.100.204/hls/star_jalsha.m3u8
-#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(dflix)
-http://tv.dflix.live:8082/36/mono.m3u8?token=1977b893597aaf872b35673928eeb911bfcf9d99-633d17023b326104bf2374ede40cf4ed-1606064661-1606053861&remote=10.13.45.2
-#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(Tokenlink)
-http://103.135.208.14:8082/36/index.m3u8?token=e47b4719347cf3dc2820827eccbefaa3c5b61d5e-02dcbd2579aee425ec8db5fd351a71a6-1605970522-1605959722
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(dflix tokenlink)
+http://tv.dflix.live:8082/36/mono.m3u8?token=a6a275750faf49e063e5544454b693796e84221b-2bb5f01d6ee1618c54729ad9a85dd181-1606146547-1606135747&remote=10.13.45.2
+#EXTINF:-1 tvg-logo="http://imagesstartv.whatsonindia.com/WhatsOnTV/images/channellogo/medium/Vljpeexi.png",Star Jalsha HD(ibox Tokenlink)
+http://103.135.208.14:8082/36/index.m3u8?token=2f9317bd12bb84230a07a09388838749c5019ef1-2a5073b058573f12812ba1babe118f5c-1606146453-1606135653&remote=59.153.100.142
 #EXTINF:-1 tvg-logo="https://github.com/amarnettv/amarnettv.github.io/raw/master/logo/SJHD.jpg" group-title="BANGLA",Star Jalsha HD (yupptv)
 https://yuppcatchup.akamaized.net/preview/starjalsha/1800.m3u8
 
