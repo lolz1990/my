@@ -32,6 +32,8 @@ http://indo51.gcdn.co/BANGLA-BD-DBCNEWS/tracks-v1a1/mono.m3u8
 http://indo51.gcdn.co/BANGLA-BD-DEEPTOTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JgkIH3w.png" group-title="Bangladeshi", Desh TV
 http://indo51.gcdn.co/BANGLA-BD-DESHTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://aslive.club/logo/ekattor.jpg" group-title="BANGLA",EKATTOR TV
+http://103.205.133.18/hls/ekatoortv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/i8T9qQs.png" group-title="Bangladeshi", Ekattor TV HD
 http://indo51.gcdn.co/BANGLA-BD-Ekattortv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kFqOMtx.png" group-title="Bangladeshi", Ekusey TV
