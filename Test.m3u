@@ -123,7 +123,7 @@ http://indo51.gcdn.co/BANGLA-IND-Rupashibangla/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ppJO2Ep.png" group-title="Indian Bangla", Star Jalsha SD
 http://103.159.4.38:5868/IN-BANGLA-2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha HD SK
-
+https://ott.bingebd.com/live/ngrp:star_jalsha_hd_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha HD BDC
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha FHD
@@ -137,7 +137,7 @@ https://cdn.nowhdtime.com.bd/ZeeBangla/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD 
 http://indo51.gcdn.co/BANGLA-IND-ZeeBanglaHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD 
-
+https://ott.bingebd.com/live/ngrp:nxd_zee_bangla_hd_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla FHD
 http://nwbz1u.ecm.tm/806B6CF/89181e/SM_FHD-BANG-ZEEBANGLA/tracks-v1a1/index.m3u8?token=0558356b27398f74c6bf8c38e801782c18670ace1f7869d7ecae4a394155cad0d3fb6590a4994ad08d77346bc38e60e12e23d1e4c475b50b48f09950198e189a4b5a10ac74d1bd01ed0ad7cfe9fe35b93d1b3962912dfc9efa50066fb3a87e338845a44e7a813af5fa5d111e8be9802b&mac=00:1A:79:55:D4:8B&ip=103.121.220.147&magic_server=MAIN_MP
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M6GyIvI.png" group-title="Indian Bangla", Zee Bangla Cinema
@@ -165,7 +165,7 @@ http://indo51.gcdn.co/hindi-COLORSindia/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi Entertainment", Sony Entertainment HD
 http://indo51.gcdn.co/hindi-SONYindia/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi Entertainment", Sony Entertainment HD SK
-
+https://ott.bingebd.com/live/ngrp:nxd_sony_hd_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi Entertainment", Sony Entertainment
 http://173.199.120.51/hls/chs.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QX7M2Cc.png" group-title="Hindi Entertainment", Sony Pal
