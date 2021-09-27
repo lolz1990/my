@@ -3,7 +3,7 @@
 http://103.159.4.38:8080/IN-BANGLA-4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://aslive.club/logo/zeebangla.jpg" group-title="INDIAN BANGLA",Zee Bangla HD
 http://stream.dhakaflix.com:8081/live/zeebangla/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD 📌
+#EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD
 http://indo51.gcdn.co/BANGLA-IND-ZeeBanglaHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://tv.ebox.live/assets/images/zeebangla.png" group-title="Bangla",Zee Bangla HD (BDIX3)
 http://172.27.27.3:8081/local/Zee_Bangla/chunks.m3u8
@@ -14,7 +14,7 @@ http://jupiter.bdcabletv.com/ZeeBanglaHD/video.m3u8
 http://indo51.gcdn.co/BANGLA-IND-STARJALSHA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://aslive.club/logo/starjalsha.jpg" group-title="INDIAN BANGLA",Star Jalsha HD
 http://stream.dhakaflix.com:8081/live/starjolsha/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha HD jp📌
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha HD jp
 http://jupiter.bdcabletv.com/star_jalsha-sp/video.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d0/Star_Jalsha_logo.jpg" group-title="Bangla",Star Jalsha HD (BDIX3)
 http://172.27.27.3:8081/local/Star_Jalsha/chunks.m3u8
@@ -40,12 +40,14 @@ https://abp-i.akamaihd.net/hls/live/765530/abpananda/master.m3u8
 https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master_1564.m3u8
 #EXTINF:-1 group-title="NEWS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5d/Zee_24_ghanta.png",Zee 24 Ghanta
 https://is.gd/zee24himel
+#EXTINF:-1 tvg-logo="http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Kolkata_TV.png" group-title="Sneh JioTV",Kolkata TV
+http://10.16.100.204:8082/hls/kolkatatv_local.m3u8
 
 #EXTINF:-1 tvg-logo="https://aslive.club/logo/ekattor.jpg" group-title="BANGLA",EKATTOR TV
 http://103.205.133.18/hls/ekatoortv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/i8T9qQs.png" group-title="Bangladeshi", Ekattor TV HD
 http://indo51.gcdn.co/BANGLA-BD-Ekattortv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5d/Ekattor_TV_logo.png" group-title="Bangla",Ekattor TV (BDIX9)📌
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5d/Ekattor_TV_logo.png" group-title="Bangla",Ekattor TV (BDIX9)
 http://103.159.4.38:8080/BD-BANGLA-7/index.m3u8
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/imagea02f4314e761661d.png" group-title="Live Tv",Ekattor
 http://103.159.4.38:8080/BD-BANGLA-7/index.m3u8
@@ -61,7 +63,7 @@ http://103.159.4.38:8080/BD-BANGLA-18/index.m3u8
 http://indo51.gcdn.co/BANGLA-BD-NTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://www.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="Bangla",NTV (radiant)
 http://173.199.120.51/hls/ntv.m3u8
-#EXTINF:-1 tvg-logo="https://www.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="Bangla",NTV (BDcableTV)📌
+#EXTINF:-1 tvg-logo="https://www.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="Bangla",NTV (BDcableTV)
 http://jupiter.bdcabletv.com/NTV/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HX8SSDA.png" group-title="Bangladeshi", Banglavision HD
@@ -90,6 +92,8 @@ http://70.39.83.58:8278/cartoonnetworkhindikdin/playlist.m3u8
 http://stream.dhakaflix.com:8081/live/cn/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dYLwOJA.png" group-title="Kids", Cartoon Network HD+
 http://indo51.gcdn.co/kids-CartoonnetworkHDUK/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dYLwOJA.png" group-title="BDCable", Cartoon Network HD+ BDC
+http://jupiter.bdcabletv.com/ENC-18/video.m3u8
 #EXTINF:-1 group-title="KIDS",BOOMERANG 
 http://212.102.60.76:80/l1/mono.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/800px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids",Boomerang HD
@@ -101,9 +105,12 @@ http://212.102.60.76:80/o1/mono.m3u8
 http://212.102.60.76:80/z1/mono.m3u8 
 #EXTINF:-1 group-title="KIDS",DISCOVERY FAMILY HD
 http://212.102.60.76:80/x1/mono.m3u8
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KARm3uR.png" group-title="KIDS",Nick HD+ 
+http://jupiter.bdcabletv.com/ENC-15/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi Entertainment", Sony Entertainment HD
 http://indo51.gcdn.co/hindi-SONYindia/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi Entertainment", Sony Entertainment HD
+http://221.120.204.4/SONY-HD-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi Entertainment", Sony Entertainment
 http://173.199.120.51/hls/chs.m3u8
 #EXTINF:-1 tvg-logo="https://aslive.club/logo/sony.jpg" group-title="HINDI",Sony Entertainment
@@ -113,14 +120,20 @@ http://103.205.133.18/hls/chs.m3u8
 http://stream.dhakaflix.com:8081/live/starplus/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AMhvwJB.png" group-title="Hindi Entertainment", Star Plus HD 
 http://indo51.gcdn.co/hindi-STARPLUSHDindia/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AMhvwJB.png" group-title="BDCable", Star Plus HD BDC
+http://jupiter.bdcabletv.com/StarPlus/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi Entertainment", Zee TV HD
 http://indo51.gcdn.co/hindi-ZEETVHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi Entertainment", Zee TV HD
 http://221.120.204.4/zee-tv-LOCKLE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="BDCable", Zee TV HD BDC
+http://jupiter.bdcabletv.com/ENC-9/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vKkvbXw.png" group-title="Hindi Entertainment", Colors HD
 http://indo51.gcdn.co/hindi-COLORSindia/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vKkvbXw.png" group-title="Hindi Entertainment", Colors HD
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Leqpvxr.png",discovary Bangla
 http://stream.dhakaflix.com:8081/live/discovary/chunks.m3u8
@@ -171,6 +184,8 @@ http://103.159.4.38:8080/SPORTS-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://aslive.club/logo/starsports2.jpg" group-title="SPORTS",Star Sports 2
 http://stream.dhakaflix.com:8081/play/604/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VcSPzlc.png" group-title="BDCable", Star Sports 2 BDC
+http://jupiter.bdcabletv.com/ENC-4/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://aslive.club/logo/starsl1.jpg" group-title="SPORTS",Star Sports Select 1 HD 
 http://stream.dhakaflix.com:8081/live/starselect1/chunks.m3u8
@@ -203,6 +218,8 @@ http://stream.dhakaflix.com:8081/live/cinemaplex/chunks.m3u8
 http://stream.dhakaflix.com:8081/&priveHD/tracks-v1a1/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vGq343l.png" group-title="Hindi Movies", Star Gold HD 
 http://indo51.gcdn.co/hindi-STARGOLDUK/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vGq343l.png" group-title="Hindi Movies", Star Gold HD 
+http://172.27.27.3:8081/local/Star_Gold/chunks.m3u8
 #EXTINF:0 tvg-logo="https://akamaividz.zee5.com/resources/0-9-zeecinemahd/list/386x386/09zeecinemahdzeecinemahd.png" group-title="Hindi",Zee Cinema HD
 http://93.190.139.35:8278/streams/d/Zeecinemahd/playlist.m3u8
 
