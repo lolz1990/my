@@ -10,6 +10,8 @@ http://172.27.27.3:8081/local/Zee_Bangla/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD jp
 http://jupiter.bdcabletv.com/ZeeBanglaHD/video.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha HD
+http://indo51.gcdn.co/BANGLA-IND-STARJALSHA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://aslive.club/logo/starjalsha.jpg" group-title="INDIAN BANGLA",Star Jalsha HD
 http://stream.dhakaflix.com:8081/live/starjolsha/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha HD jp
