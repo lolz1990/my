@@ -34,7 +34,7 @@ http://indo51.gcdn.co/BANGLA-IND-colorsBangla/tracks-v1a1/mono.m3u8
 http://stream.dhakaflix.com:8081/live/bbcearth/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kXfuCMM.png" group-title="Indian Bangla", News 18 Bangla
-https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8
+http://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8
 
 #EXTINF:-1 tvg-id="ext" group-title="Sneh News",ABP Ananda (720p)
 https://abp-i.akamaihd.net/hls/live/765530/abpananda/master.m3u8
