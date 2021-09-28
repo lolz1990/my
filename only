@@ -9,7 +9,8 @@ http://indo51.gcdn.co/BANGLA-IND-ZeeBanglaHD/tracks-v1a1/mono.m3u8
 http://172.27.27.3:8081/local/Zee_Bangla/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD jp
 http://jupiter.bdcabletv.com/ZeeBanglaHD/video.m3u8
-http://bdtoonlivetvon.ueuo.com/Zee5.php?c=0-9-tvpictureshd
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Zee Bangla HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV-t52GuplsDefN7ZDA0aUruBleu8Do9vcyw&usqp=CAU",Zee Bangla HD 
+http://z5.unaux.com/zeech.php?c=0-9-zeebangla&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9d1xXjN.png" group-title="Indian Bangla", Star Jalsha HD
 http://indo51.gcdn.co/BANGLA-IND-STARJALSHA/tracks-v1a1/mono.m3u8
@@ -130,6 +131,8 @@ http://indo51.gcdn.co/hindi-ZEETVHD/tracks-v1a1/mono.m3u8
 http://221.120.204.4/zee-tv-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="BDCable", Zee TV HD BDC
 http://jupiter.bdcabletv.com/ENC-9/video.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png", Zee TV HD 
+https://zee5-rds.herokuapp.com/?c=0-9-zeetvhd
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vKkvbXw.png" group-title="Hindi Entertainment", Colors HD
 http://indo51.gcdn.co/hindi-COLORSindia/tracks-v1a1/mono.m3u8
@@ -226,13 +229,18 @@ http://indo51.gcdn.co/hindi-STARGOLDUK/tracks-v1a1/mono.m3u8
 http://172.27.27.3:8081/local/Star_Gold/chunks.m3u8
 #EXTINF:0 tvg-logo="https://akamaividz.zee5.com/resources/0-9-zeecinemahd/list/386x386/09zeecinemahdzeecinemahd.png" group-title="Hindi",Zee Cinema HD
 http://93.190.139.35:8278/streams/d/Zeecinemahd/playlist.m3u8
-
+#EXTINF:0 tvg-logo="https://akamaividz.zee5.com/resources/0-9-zeecinemahd/list/386x386/09zeecinemahdzeecinemahd.png" group-title="Hindi",Zee Cinema HD
+https://zee5-rds.herokuapp.com/?c=0-9-zeecinemahd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Y9Wc2mx.png",Sony Pix Hindi
 http://stream.dhakaflix.com:8081/live/sonypix/chunks.m3u8 hindi
+#EXTINF:-1 tvg-logo="http://www.afaqs.com/all/news/images/news_story_grfx/2015/05/44266/pictures.jpg" group-title="New", AND PICTURES HD
+http://bdtoonlivetvon.ueuo.com/Zee5.php?c=0-9-tvpictureshd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wVQwK4D.png" group-title="Hindi Movies", Zee Bolywood
 http://indo51.gcdn.co/hindi-ZEEBOLLYWOOD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zee_news.svg/1200px-Zee_news.svg.png" group-title="NEWS",Zee News
 https://d233nwklwv8p4.cloudfront.net/out/v1/860cb318d23a4c64b58c9d625281170c/index_3.m3u8
+#EXTINF:-1 group-title="Youtube Live" tvg-logo="https://yt3.ggpht.com/whfc-0Lc_HO0JVwGXzNq0LWzGlgg3OG_RT8M9iAWD-tEUDKOknuGxg3r-nocyUzgIBvONKe1Mg=s176-c-k-c0x00ffffff-no-rj" tvg-id="016", DD National
+https://zee5-rds.herokuapp.com/?c=0-9-250
 #EXTINF:-1 group-title="Youtube Live" tvg-logo="https://yt3.ggpht.com/whfc-0Lc_HO0JVwGXzNq0LWzGlgg3OG_RT8M9iAWD-tEUDKOknuGxg3r-nocyUzgIBvONKe1Mg=s176-c-k-c0x00ffffff-no-rj" tvg-id="016", DD National
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1632758623/ei/_5ZRYcHdG5mHkwa3q6ywCA/ip/20.106.75.1/id/Y0wsbLtxcbU.1/source/yt_live_broadcast/requiressl/yes/tx/24008108/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhALGz4Bqv_2Ufj5NxuAmJvl2BMnnKUC6edaBROkrGKbd5AiEA1uJ1XQ6-fVl6GmQ7VXhZz8DIStnG3LHoN_mjrQ7hSag%3D/file/index.m3u8
 
