@@ -11,6 +11,8 @@ http://103.16.24.54:8080/channel5/index.m3u8
 http://103.121.14.18/hls/starjalsha.m3u8
 #EXTINF:1, Colors Bangla HD
 http://103.99.249.107:81/play/a00j
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla.png",Colors Bangla HD 2
+http://103.121.14.18/hls/colorsbangla.m3u8
 #EXTINF:-1, Sun Bangla SD
 http://103.99.249.107:81/play/a02h
 #EXTINF:-1, Sun Bangla HD (Backup)
@@ -19,6 +21,7 @@ http://103.121.14.18/hls/sunbangla.m3u8
 http://103.99.249.107:81/play/a00f
 #EXTINF:1, ABP ANANDA
 https://abplivetv.akamaized.net/hls/live/2043012/ananda/master_720p.m3u8
+#EXTINF:1, ABP ANANDA
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/abpananda_nim_https/050522/abpananda/playlist.m3u8
 #EXTINF:-1 tvg-id="snehjio464" group-title="News-SabbirIPTV" tvg-language="Bengali" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",24 Ghanta TV
 https://d3dyw3d1wswml0.cloudfront.net/out/v1/c549619d46ce42b28649a25c12f3ee4b/index_9.m3u8
@@ -28,7 +31,7 @@ http://103.121.14.18/hls/colore-bangla-cinema.m3u8
 http://103.99.249.107:81/play/a00k
 #EXTINF:-1,Jalsha Movies HD
 http://103.121.14.18/hls/jalshamovies.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Jalsha Movies" tvg-logo="" group-title="Tata Play || LOKI IPTV || ",Jalsha Movies
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Jalsha Movies" tvg-logo="" group-title="Tata Play || LOKI IPTV || ",Jalsha Movies HD
 http://watchindia.net:8880/live/vvv/vvv/2282.ts
 #EXTINF:-1,Zee Bangla Cinema SD
 http://103.99.249.107:81/play/a01m
