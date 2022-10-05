@@ -3,9 +3,9 @@
 http://103.99.249.107:81/play/a01a
 #EXTINF:-1, ZEE BANGLA HD 1
 http://103.16.24.54:8080/channel4/index.m3u8
-#EXTINF:-1, STAR JALSHA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png" ,STAR JALSHA HD
 http://103.99.249.107:81/play/a00l
-#EXTINF:-1, Star Jalsha HD 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png" ,Star Jalsha HD 1
 http://103.16.24.54:8080/channel5/index.m3u8
 #EXTINF:-1, Star Jalsha HD 2
 http://103.121.14.18/hls/starjalsha.m3u8
@@ -37,3 +37,14 @@ http://watchindia.net:8880/live/vvv/vvv/2282.ts
 http://103.99.249.107:81/play/a01m
 #EXTINF:-1 group-title=" Internet Tv",zee-bangla-cinema(Sun)
 http://103.121.14.18/hls/zee-bangla-cinema.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/NTV.png"group-title="BD2",NTV UK(BD2)
+https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0800/c.m3u8
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://i.postimg.cc/kgLbNbbM/3usnOla.png",NTV
+http://208.86.19.13:81/652.stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png"group-title="Flixhub",ATN Bangla(Flixhub)
+http://103.121.14.18/hls/atn.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Channel%20I.png"group-title="Flixhub",Channel I(Flixhub)
+http://103.121.14.18/hls/channeli.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/RTV.png"group-title="Jagobd",RTV(Jagobd)
+http://iptvbd.jagobd.com:1931/live-orgin/rtv-sg.stream/chunks.m3u8
