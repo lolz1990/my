@@ -118,3 +118,7 @@ http://103.99.249.107:81/play/a01f
 http://103.99.249.107:81/play/a006
 #EXTINF:-1 tvg-language="Arif_Khan" tvg-logo="https://i.imgur.com/6H2uZgL.jpg?1" group-title="favourites Channel", 50-SONY TEN 4
 http://103.99.249.107:81/play/a021
+#EXTINF:-1 tvg-language="Arif_Khan" tvg-logo="https://i.imgur.com/6H2uZgL.jpg?1" group-title="favourites Channel", M- BBC NEWS
+http://103.99.249.107:81/play/a05e
+#EXTINF:-1 tvg-language="Arif_Khan" tvg-logo="https://i.imgur.com/6H2uZgL.jpg?1" group-title="favourites Channel", M- CNN NEWS
+http://103.99.249.107:81/play/a05g
