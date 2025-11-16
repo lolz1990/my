@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .watch-bg { fill: #f8f9fa; }
+      .watch-border { fill: #2c3e50; }
+      .watch-hand { fill: #34495e; }
+      .watch-second { fill: #e74c3c; }
+    </style>
+  </defs>
+  <rect class="watch-border" x="1" y="1" width="14" height="14" rx="7"/>
+  <circle class="watch-bg" cx="8" cy="8" r="6"/>
+  <line x1="8" y1="3" x2="8" y2="6" class="watch-hand" stroke-width="1"/>
+  <line x1="8" y1="8" x2="5" y2="8" class="watch-hand" stroke-width="1"/>
+  <circle class="watch-hand" cx="8" cy="8" r="1.5"/>
+</svg>

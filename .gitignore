@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Chrome Extension Development
+.chrome-extension-key
+*.crx
+*.pem
+
+# Temp files
+*.tmp
+temp/
