@@ -6,7 +6,9 @@
   "permissions": ["geolocation"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Analog Watch"
+    "default_title": "Analog Watch",
+    "default_popup_width": 440,
+    "default_popup_height": 600
   },
   "icons": {
     "16": "icons/icon-16.svg",
