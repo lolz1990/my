@@ -1,0 +1,10 @@
+1. Provide proper headlines and functions with meaningful descriptions within the code lines in Bangla.
+2. Search the net, GitHub, Stack Overflow to get proper code structures.
+3. Use reasoning before coding.
+4. Code what is requested only. Don't assume anything that is not asked.
+5. Make sure no reference error, syntax error or any other error occurs.
+6. Make sure proper integration between content.js, background.js and proper permission in manifest.json is present after coding completion
+7. Don't create readme.md, test html or any test files.
+
+
+or
