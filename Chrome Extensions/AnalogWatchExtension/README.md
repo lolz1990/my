@@ -69,6 +69,7 @@ AnalogWatchExtension/
 - Box shadows for 3D appearance
 - Smooth CSS animations
 - Responsive design for different screen sizes
+- Optimized popup dimensions (420px × 520px) for full watch visibility
 
 ### Watch Hand Animation
 - Hour hand rotates 360° every 12 hours (0.5°/minute)
