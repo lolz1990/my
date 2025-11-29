@@ -5,23 +5,27 @@
 }
 
 :root {
-  --popup-width: 420px;
-  --popup-height: 520px;
+  --popup-width: 400px;
+  --popup-height: 500px;
   --popup-padding: 20px;
 }
 
 html {
   width: var(--popup-width);
   min-width: var(--popup-width);
+  max-width: var(--popup-width);
   height: var(--popup-height);
   min-height: var(--popup-height);
+  overflow: hidden;
 }
 
 body {
   width: var(--popup-width);
   height: var(--popup-height);
   min-width: var(--popup-width);
+  max-width: var(--popup-width);
   min-height: var(--popup-height);
+  max-height: var(--popup-height);
   background: linear-gradient(135deg, #f5f7fa 0%, #e8eef2 100%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -29,6 +33,7 @@ body {
   align-items: center;
   overflow: hidden;
   padding: var(--popup-padding);
+  margin: 0;
 }
 
 .container {

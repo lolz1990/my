@@ -1,3 +1,31 @@
+const POPUP_DIMENSIONS = {
+  width: 400,
+  height: 500
+};
+
+function applyPopupDimensions() {
+  const widthValue = `${POPUP_DIMENSIONS.width}px`;
+  const heightValue = `${POPUP_DIMENSIONS.height}px`;
+  const root = document.documentElement;
+  const body = document.body;
+
+  root.style.setProperty('--popup-width', widthValue);
+  root.style.setProperty('--popup-height', heightValue);
+  root.style.width = widthValue;
+  root.style.minWidth = widthValue;
+  root.style.maxWidth = widthValue;
+  root.style.height = heightValue;
+  root.style.minHeight = heightValue;
+  root.style.maxHeight = heightValue;
+
+  body.style.width = widthValue;
+  body.style.minWidth = widthValue;
+  body.style.maxWidth = widthValue;
+  body.style.height = heightValue;
+  body.style.minHeight = heightValue;
+  body.style.maxHeight = heightValue;
+}
+
 class AnalogWatch {
   constructor() {
     this.hourHand = document.getElementById('hour-hand');
@@ -56,7 +84,7 @@ class AnalogWatch {
           const { latitude, longitude } = position.coords;
           this.getWeatherData(latitude, longitude);
         },
-        (error) => {
+        () => {
           this.setDefaultTemperature();
         }
       );
@@ -93,5 +121,6 @@ class AnalogWatch {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  applyPopupDimensions();
   new AnalogWatch();
 });
