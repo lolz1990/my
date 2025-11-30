@@ -290,18 +290,35 @@ class AnalogWatch {
 
   getWeatherData(lat, lon) {
     // Open-Meteo API
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,is_day&temperature_unit=celsius`;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,is_day&temperature_unit=celsius&timezone=auto`;
     
     fetch(url)
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`Weather HTTP ${res.status}`);
+        }
+        return res.json();
+      })
       .then(data => {
-        if(data.current) {
-          const temp = Math.round(data.current.temperature_2m);
-          const code = data.current.weather_code;
-          const isDay = data.current.is_day;
-          
+        let temp = null;
+        let code = 0;
+        let isDay = 1;
+
+        if (data.current && typeof data.current.temperature_2m === 'number') {
+          temp = Math.round(data.current.temperature_2m);
+          code = data.current.weather_code;
+          isDay = data.current.is_day;
+        } else if (data.current_weather && typeof data.current_weather.temperature === 'number') {
+          temp = Math.round(data.current_weather.temperature);
+          code = data.current_weather.weathercode;
+          isDay = data.current_weather.is_day != null ? data.current_weather.is_day : 1;
+        }
+
+        if (typeof temp === 'number' && !Number.isNaN(temp)) {
           this.weatherTemp.textContent = `${temp}°C`;
           this.updateWeatherIcon(code, isDay);
+        } else {
+          this.setDefaultWeather();
         }
       })
       .catch(e => {
@@ -320,6 +337,9 @@ class AnalogWatch {
     // 80, 81, 82: Rain showers
     // 95, 96, 99: Thunderstorm
     
+    const wmoCode = Number(code);
+    const isDaytime = isDay === 1 || isDay === true || isDay === "1";
+    
     let desc = "Clear";
     let animClass = "anim-sun"; // Default
     
@@ -327,16 +347,16 @@ class AnalogWatch {
     const iconDiv = document.createElement('div');
     iconDiv.classList.add('weather-symbol');
 
-    if (code === 0 || code === 1) {
-      desc = isDay ? "Sunny" : "Clear Night";
-      animClass = isDay ? "anim-sun" : "anim-sun"; // Could add moon if time permitted
-    } else if (code === 2 || code === 3 || code === 45 || code === 48) {
+    if (wmoCode === 0 || wmoCode === 1) {
+      desc = isDaytime ? "Sunny" : "Clear Night";
+      animClass = isDaytime ? "anim-sun" : "anim-sun"; // Could add moon if time permitted
+    } else if (wmoCode === 2 || wmoCode === 3 || wmoCode === 45 || wmoCode === 48) {
       desc = "Cloudy";
       animClass = "anim-cloud";
-    } else if ([51, 53, 55, 61, 63, 65, 80, 81, 82].includes(code)) {
+    } else if ([51, 53, 55, 61, 63, 65, 80, 81, 82].includes(wmoCode)) {
       desc = "Rainy";
       animClass = "anim-rain";
-    } else if (code >= 95) {
+    } else if (wmoCode >= 95) {
       desc = "Stormy";
       animClass = "anim-rain"; // Reuse rain for now
     }

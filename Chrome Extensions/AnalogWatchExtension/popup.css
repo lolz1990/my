@@ -93,12 +93,14 @@ body {
   height: 260px;
   border-radius: 50%;
   position: relative;
-  /* Wood Frame Effect */
+  /* Vintage brown wooden frame with soft highlight */
   background-color: var(--wood-light);
-  background-image: repeating-linear-gradient(45deg, var(--wood-dark) 0px, var(--wood-light) 2px, var(--wood-grain) 4px);
-  box-shadow: 
-    0 10px 20px rgba(0,0,0,0.4),
-    inset 0 0 10px rgba(0,0,0,0.7),
+  background-image:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.4), transparent 60%),
+    repeating-linear-gradient(45deg, var(--wood-dark) 0px, var(--wood-light) 3px, var(--wood-grain) 6px);
+  box-shadow:
+    0 18px 28px rgba(0, 0, 0, 0.45),
+    inset 0 0 8px rgba(0, 0, 0, 0.6),
     0 0 0 4px #2c1e1a; /* Darker outer rim */
   display: flex;
   justify-content: center;
@@ -113,8 +115,10 @@ body {
   width: 230px; /* Inner diameter */
   height: 230px;
   border-radius: 50%;
-  background: radial-gradient(circle, #fffff0 0%, var(--paper-bg) 80%, var(--paper-shadow) 100%);
-  box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.65), transparent 60%),
+    radial-gradient(circle, #fffff0 0%, var(--paper-bg) 80%, var(--paper-shadow) 100%);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 /* Inner Ring Markings (Subtle) */
@@ -164,14 +168,20 @@ body {
   font-family: 'Times New Roman', serif; /* Victorian Style Font */
 }
 
-/* Minute Markers Ring (Simulated with dashed border) */
+/* Minute Markers Ring - subtle inner ticks around dial */
 .minute-markers-ring {
   position: absolute;
   width: 210px;
   height: 210px;
   border-radius: 50%;
-  border: 1px dashed rgba(0,0,0,0.3);
   z-index: 1;
+  background:
+    radial-gradient(circle, transparent 72%, rgba(0, 0, 0, 0.25) 73%, transparent 74%),
+    repeating-conic-gradient(
+      from -90deg,
+      rgba(0, 0, 0, 0.45) 0deg 2deg,
+      transparent 2deg 6deg
+    );
 }
 
 /* Hands - Victorian Style */
@@ -186,51 +196,92 @@ body {
 
 /* Hour Hand - Ornate */
 .hour-hand {
-  width: 6px;
-  height: 60px;
+  width: 7px;
+  height: 70px;
   background: #000;
-  margin-left: -3px;
+  margin-left: -3.5px;
+  border-radius: 999px;
+}
+
+.hour-hand::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 18px solid #000;
 }
 
 .hour-hand::after {
   content: '';
   position: absolute;
-  top: 10px;
-  left: -4px;
-  width: 14px;
-  height: 14px;
+  top: 16px;
+  left: 50%;
+  width: 16px;
+  height: 16px;
   background: #000;
-  transform: rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
   border-radius: 2px;
 }
 
 /* Minute Hand - Ornate */
 .minute-hand {
   width: 4px;
-  height: 85px;
+  height: 95px;
   background: #000;
   margin-left: -2px;
+  border-radius: 999px;
+}
+
+.minute-hand::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 22px solid #000;
 }
 
 .minute-hand::after {
   content: '';
   position: absolute;
-  top: 15px;
-  left: -3px;
-  width: 10px;
-  height: 10px;
+  top: 22px;
+  left: 50%;
+  width: 12px;
+  height: 12px;
   background: #000;
-  transform: rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
   border-radius: 1px;
 }
 
 /* Second Hand - Thin */
 .second-hand {
   width: 1px;
-  height: 100px;
-  background: #c0392b; /* Subtle red or black */
+  height: 105px;
+  background: #000;
   margin-left: -0.5px;
   z-index: 11;
+}
+
+.second-hand::after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 1px solid #000;
+  background: transparent;
 }
 
 .center-cap {
@@ -252,7 +303,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  font-family: 'PP Pangaia', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'PP Pangaia', sans-serif;
 }
 
 .digit-box {
