@@ -8,127 +8,83 @@
 </head>
 <body>
   <div class="container">
+    <!-- Settings / Toggle -->
+    <div class="settings-bar">
+      <button id="format-toggle" class="format-toggle" title="Toggle 12/24H">12H</button>
+    </div>
+
     <div class="watch-container">
       <!-- Clock Face -->
       <div class="clock-face">
+        <!-- Inner Ring -->
+        <div class="inner-ring"></div>
+        
         <!-- Designer Logo/Branding -->
         <div class="designer-logo">Chronos</div>
 
         <!-- Hour Markers and Numbers -->
         <div class="markers">
-          <div class="marker hour-marker" style="transform: rotate(0deg)"></div>
-          <div class="hour-number" style="transform: rotate(30deg) translateY(-120px) rotate(-30deg)">1</div>
-          <div class="marker hour-marker" style="transform: rotate(30deg)"></div>
-          <div class="hour-number" style="transform: rotate(60deg) translateY(-120px) rotate(-60deg)">2</div>
-          <div class="marker hour-marker" style="transform: rotate(60deg)"></div>
-          <div class="hour-number" style="transform: rotate(90deg) translateY(-120px) rotate(-90deg)">3</div>
-          <div class="marker hour-marker" style="transform: rotate(90deg)"></div>
-          <div class="hour-number" style="transform: rotate(120deg) translateY(-120px) rotate(-120deg)">4</div>
-          <div class="marker hour-marker" style="transform: rotate(120deg)"></div>
-          <div class="hour-number" style="transform: rotate(150deg) translateY(-120px) rotate(-150deg)">5</div>
-          <div class="marker hour-marker" style="transform: rotate(150deg)"></div>
-          <div class="hour-number" style="transform: rotate(180deg) translateY(-120px) rotate(-180deg)">6</div>
-          <div class="marker hour-marker" style="transform: rotate(180deg)"></div>
-          <div class="hour-number" style="transform: rotate(210deg) translateY(-120px) rotate(-210deg)">7</div>
-          <div class="marker hour-marker" style="transform: rotate(210deg)"></div>
-          <div class="hour-number" style="transform: rotate(240deg) translateY(-120px) rotate(-240deg)">8</div>
-          <div class="marker hour-marker" style="transform: rotate(240deg)"></div>
-          <div class="hour-number" style="transform: rotate(270deg) translateY(-120px) rotate(-270deg)">9</div>
-          <div class="marker hour-marker" style="transform: rotate(270deg)"></div>
-          <div class="hour-number" style="transform: rotate(300deg) translateY(-120px) rotate(-300deg)">10</div>
-          <div class="marker hour-marker" style="transform: rotate(300deg)"></div>
-          <div class="hour-number" style="transform: rotate(330deg) translateY(-120px) rotate(-330deg)">11</div>
-          <div class="marker hour-marker" style="transform: rotate(330deg)"></div>
-          <div class="hour-number" style="transform: rotate(360deg) translateY(-120px) rotate(-360deg)">12</div>
+          <!-- Markers will be generated or styled via CSS -->
+          <div class="hour-number" style="transform: rotate(30deg) translateY(-110px) rotate(-30deg)">1</div>
+          <div class="hour-number" style="transform: rotate(60deg) translateY(-110px) rotate(-60deg)">2</div>
+          <div class="hour-number" style="transform: rotate(90deg) translateY(-110px) rotate(-90deg)">3</div>
+          <div class="hour-number" style="transform: rotate(120deg) translateY(-110px) rotate(-120deg)">4</div>
+          <div class="hour-number" style="transform: rotate(150deg) translateY(-110px) rotate(-150deg)">5</div>
+          <div class="hour-number" style="transform: rotate(180deg) translateY(-110px) rotate(-180deg)">6</div>
+          <div class="hour-number" style="transform: rotate(210deg) translateY(-110px) rotate(-210deg)">7</div>
+          <div class="hour-number" style="transform: rotate(240deg) translateY(-110px) rotate(-240deg)">8</div>
+          <div class="hour-number" style="transform: rotate(270deg) translateY(-110px) rotate(-270deg)">9</div>
+          <div class="hour-number" style="transform: rotate(300deg) translateY(-110px) rotate(-300deg)">10</div>
+          <div class="hour-number" style="transform: rotate(330deg) translateY(-110px) rotate(-330deg)">11</div>
+          <div class="hour-number" style="transform: rotate(360deg) translateY(-110px) rotate(-360deg)">12</div>
         </div>
 
-        <!-- Minute Markers -->
-        <div class="minute-markers">
-          <div class="minute-marker" style="transform: rotate(0deg)"></div>
-          <div class="minute-marker" style="transform: rotate(6deg)"></div>
-          <div class="minute-marker" style="transform: rotate(12deg)"></div>
-          <div class="minute-marker" style="transform: rotate(18deg)"></div>
-          <div class="minute-marker" style="transform: rotate(24deg)"></div>
-          <div class="minute-marker" style="transform: rotate(30deg)"></div>
-          <div class="minute-marker" style="transform: rotate(36deg)"></div>
-          <div class="minute-marker" style="transform: rotate(42deg)"></div>
-          <div class="minute-marker" style="transform: rotate(48deg)"></div>
-          <div class="minute-marker" style="transform: rotate(54deg)"></div>
-          <div class="minute-marker" style="transform: rotate(60deg)"></div>
-          <div class="minute-marker" style="transform: rotate(66deg)"></div>
-          <div class="minute-marker" style="transform: rotate(72deg)"></div>
-          <div class="minute-marker" style="transform: rotate(78deg)"></div>
-          <div class="minute-marker" style="transform: rotate(84deg)"></div>
-          <div class="minute-marker" style="transform: rotate(90deg)"></div>
-          <div class="minute-marker" style="transform: rotate(96deg)"></div>
-          <div class="minute-marker" style="transform: rotate(102deg)"></div>
-          <div class="minute-marker" style="transform: rotate(108deg)"></div>
-          <div class="minute-marker" style="transform: rotate(114deg)"></div>
-          <div class="minute-marker" style="transform: rotate(120deg)"></div>
-          <div class="minute-marker" style="transform: rotate(126deg)"></div>
-          <div class="minute-marker" style="transform: rotate(132deg)"></div>
-          <div class="minute-marker" style="transform: rotate(138deg)"></div>
-          <div class="minute-marker" style="transform: rotate(144deg)"></div>
-          <div class="minute-marker" style="transform: rotate(150deg)"></div>
-          <div class="minute-marker" style="transform: rotate(156deg)"></div>
-          <div class="minute-marker" style="transform: rotate(162deg)"></div>
-          <div class="minute-marker" style="transform: rotate(168deg)"></div>
-          <div class="minute-marker" style="transform: rotate(174deg)"></div>
-          <div class="minute-marker" style="transform: rotate(180deg)"></div>
-          <div class="minute-marker" style="transform: rotate(186deg)"></div>
-          <div class="minute-marker" style="transform: rotate(192deg)"></div>
-          <div class="minute-marker" style="transform: rotate(198deg)"></div>
-          <div class="minute-marker" style="transform: rotate(204deg)"></div>
-          <div class="minute-marker" style="transform: rotate(210deg)"></div>
-          <div class="minute-marker" style="transform: rotate(216deg)"></div>
-          <div class="minute-marker" style="transform: rotate(222deg)"></div>
-          <div class="minute-marker" style="transform: rotate(228deg)"></div>
-          <div class="minute-marker" style="transform: rotate(234deg)"></div>
-          <div class="minute-marker" style="transform: rotate(240deg)"></div>
-          <div class="minute-marker" style="transform: rotate(246deg)"></div>
-          <div class="minute-marker" style="transform: rotate(252deg)"></div>
-          <div class="minute-marker" style="transform: rotate(258deg)"></div>
-          <div class="minute-marker" style="transform: rotate(264deg)"></div>
-          <div class="minute-marker" style="transform: rotate(270deg)"></div>
-          <div class="minute-marker" style="transform: rotate(276deg)"></div>
-          <div class="minute-marker" style="transform: rotate(282deg)"></div>
-          <div class="minute-marker" style="transform: rotate(288deg)"></div>
-          <div class="minute-marker" style="transform: rotate(294deg)"></div>
-          <div class="minute-marker" style="transform: rotate(300deg)"></div>
-          <div class="minute-marker" style="transform: rotate(306deg)"></div>
-          <div class="minute-marker" style="transform: rotate(312deg)"></div>
-          <div class="minute-marker" style="transform: rotate(318deg)"></div>
-          <div class="minute-marker" style="transform: rotate(324deg)"></div>
-          <div class="minute-marker" style="transform: rotate(330deg)"></div>
-          <div class="minute-marker" style="transform: rotate(336deg)"></div>
-          <div class="minute-marker" style="transform: rotate(342deg)"></div>
-          <div class="minute-marker" style="transform: rotate(348deg)"></div>
-          <div class="minute-marker" style="transform: rotate(354deg)"></div>
-        </div>
+        <!-- Minute Markers Ring (Simplified for now, can be complex in CSS) -->
+        <div class="minute-markers-ring"></div>
 
         <!-- Watch Hands -->
-        <div class="hand hour-hand" id="hour-hand">
-          <div class="hand-tapered"></div>
-        </div>
-        <div class="hand minute-hand" id="minute-hand">
-          <div class="hand-tapered"></div>
-        </div>
-        <div class="hand second-hand" id="second-hand">
-          <div class="hand-tapered"></div>
-        </div>
+        <div class="hand hour-hand" id="hour-hand"></div>
+        <div class="hand minute-hand" id="minute-hand"></div>
+        <div class="hand second-hand" id="second-hand"></div>
 
-        <!-- Center Circle -->
-        <div class="center-circle"></div>
-
-        <!-- Digital Time Display -->
-        <div class="digital-time" id="digital-time">00:00:00</div>
+        <!-- Center Cap -->
+        <div class="center-cap"></div>
       </div>
 
-      <!-- Temperature Display -->
-      <div class="temperature-display">
-        <div class="temp-icon">🌡️</div>
-        <div class="temp-value" id="temperature">--°C</div>
+      <!-- Digital Time Display (New Location) -->
+      <div class="digital-clock-container">
+        <div class="digit-box" id="digit-hour">12</div>
+        <div class="digit-sep">:</div>
+        <div class="digit-box" id="digit-minute">00</div>
+        <div class="digit-sep">:</div>
+        <div class="digit-box" id="digit-second">00</div>
+        <div class="ampm-box" id="digit-ampm">AM</div>
       </div>
+
+      <!-- Weather Panel (New) -->
+      <div class="weather-panel" id="weather-panel">
+        <div class="weather-icon-container" id="weather-anim">
+          <!-- Animation elements injected by JS or CSS -->
+          <div class="weather-symbol"></div>
+        </div>
+        <div class="weather-info">
+          <div class="weather-temp" id="weather-temp">--°C</div>
+          <div class="weather-desc" id="weather-desc">Loading...</div>
+        </div>
+      </div>
+      
+      <!-- Date Panel (New) -->
+      <div class="date-panel">
+        <div class="english-date" id="english-date">Loading Date...</div>
+        <div class="special-event" id="special-event"></div>
+      </div>
+
+      <!-- Bengali Date Panel (New) -->
+      <div class="bengali-panel">
+        <div class="bengali-date" id="bengali-date">...</div>
+        <div class="panjika-info" id="panjika-info"></div>
+      </div>
+
     </div>
   </div>
 

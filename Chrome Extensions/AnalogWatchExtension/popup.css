@@ -6,8 +6,15 @@
 
 :root {
   --popup-width: 400px;
-  --popup-height: 500px;
-  --popup-padding: 20px;
+  --popup-height: 600px; /* Increased height to fit new elements */
+  --popup-padding: 15px;
+  --wood-dark: #3e2723;
+  --wood-light: #5d4037;
+  --wood-grain: #4e342e;
+  --paper-bg: #f5f1e8;
+  --paper-shadow: #e0d8c8;
+  --text-dark: #1a1a1a;
+  --gold-accent: #c5a059;
 }
 
 html {
@@ -26,14 +33,13 @@ body {
   max-width: var(--popup-width);
   min-height: var(--popup-height);
   max-height: var(--popup-height);
-  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef2 100%);
+  background: #fdfbf7;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   padding: var(--popup-padding);
-  margin: 0;
 }
 
 .container {
@@ -41,79 +47,106 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
+  position: relative;
+}
+
+/* Settings Toggle */
+.settings-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.format-toggle {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 10px;
+  cursor: pointer;
+  color: #555;
+  transition: all 0.2s;
+}
+
+.format-toggle:hover {
+  background: #eee;
+  color: #000;
 }
 
 .watch-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 15px;
   width: 100%;
-  max-width: 380px;
-  flex: 1;
+  height: 100%;
+  padding-top: 10px;
 }
 
-/* Clock Face */
+/* --- VINTAGE CLOCK FACE --- */
+
 .clock-face {
-  width: 300px;
-  height: 300px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #ffffff 0%, #f8f9fa 50%, #e8e9eb 100%);
-  box-shadow: 0 0 0 8px #2c3e50, 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 1px 3px rgba(255, 255, 255, 0.8);
   position: relative;
-  overflow: hidden;
-  border: 4px solid #34495e;
+  /* Wood Frame Effect */
+  background-color: var(--wood-light);
+  background-image: repeating-linear-gradient(45deg, var(--wood-dark) 0px, var(--wood-light) 2px, var(--wood-grain) 4px);
+  box-shadow: 
+    0 10px 20px rgba(0,0,0,0.4),
+    inset 0 0 10px rgba(0,0,0,0.7),
+    0 0 0 4px #2c1e1a; /* Darker outer rim */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
+/* The Paper Dial */
 .clock-face::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 35% 35%, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
-  pointer-events: none;
+  width: 230px; /* Inner diameter */
+  height: 230px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fffff0 0%, var(--paper-bg) 80%, var(--paper-shadow) 100%);
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* Designer Logo/Branding */
+/* Inner Ring Markings (Subtle) */
+.inner-ring {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
 .designer-logo {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 12px;
-  font-weight: 700;
+  top: 65px;
+  font-family: 'Times New Roman', serif;
+  font-size: 10px;
   letter-spacing: 2px;
-  color: #34495e;
-  z-index: 5;
   text-transform: uppercase;
-  opacity: 0.7;
-  font-family: 'Georgia', serif;
+  color: #555;
+  z-index: 2;
+  opacity: 0.8;
 }
 
-/* Hour Markers */
+/* Markers & Numbers */
 .markers {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-}
-
-.hour-marker {
-  position: absolute;
-  width: 4px;
-  height: 20px;
-  background: #34495e;
-  left: 50%;
-  top: 20px;
-  margin-left: -2px;
-  transform-origin: center 140px;
+  z-index: 2;
 }
 
 .hour-number {
@@ -125,225 +158,280 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
-  font-weight: 600;
-  color: #2c3e50;
-  font-family: 'Georgia', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  font-family: 'Times New Roman', serif; /* Victorian Style Font */
 }
 
-/* Minute Markers */
-.minute-markers {
+/* Minute Markers Ring (Simulated with dashed border) */
+.minute-markers-ring {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 1px dashed rgba(0,0,0,0.3);
+  z-index: 1;
 }
 
-.minute-marker {
-  position: absolute;
-  width: 2px;
-  height: 12px;
-  background: #95a5a6;
-  left: 50%;
-  top: 12px;
-  margin-left: -1px;
-  transform-origin: center 144px;
-}
-
-/* Watch Hands */
+/* Hands - Victorian Style */
 .hand {
   position: absolute;
   bottom: 50%;
   left: 50%;
   transform-origin: bottom center;
-  opacity: 0.9;
   z-index: 10;
+  border-radius: 2px;
 }
 
-.hand-tapered {
-  position: relative;
-}
-
+/* Hour Hand - Ornate */
 .hour-hand {
-  width: 8px;
-  height: 90px;
-  margin-left: -4px;
-  background: linear-gradient(90deg, transparent 0%, #2c3e50 50%, transparent 100%);
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.hour-hand::before {
-  content: '';
-  position: absolute;
   width: 6px;
-  height: 20px;
-  background: #34495e;
-  bottom: -10px;
-  left: 1px;
-  border-radius: 3px 3px 0 0;
-  transform: scaleY(0.6);
-}
-
-.minute-hand {
-  width: 6px;
-  height: 120px;
+  height: 60px;
+  background: #000;
   margin-left: -3px;
-  background: linear-gradient(90deg, transparent 0%, #34495e 50%, transparent 100%);
-  border-radius: 3px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.minute-hand::before {
+.hour-hand::after {
   content: '';
   position: absolute;
-  width: 4px;
-  height: 25px;
-  background: #2c3e50;
-  bottom: -12px;
-  left: 1px;
-  border-radius: 2px 2px 0 0;
-  transform: scaleY(0.5);
-}
-
-.second-hand {
-  width: 2px;
-  height: 130px;
-  margin-left: -1px;
-  background: linear-gradient(90deg, transparent 0%, #e74c3c 40%, #e74c3c 60%, transparent 100%);
-  border-radius: 1px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.second-hand::before {
-  content: '';
-  position: absolute;
-  width: 3px;
-  height: 30px;
-  background: #e74c3c;
-  bottom: -15px;
-  left: -0.5px;
-  border-radius: 1.5px 1.5px 0 0;
-}
-
-/* Center Circle */
-.center-circle {
-  position: absolute;
+  top: 10px;
+  left: -4px;
   width: 14px;
   height: 14px;
-  background: #2c3e50;
+  background: #000;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+
+/* Minute Hand - Ornate */
+.minute-hand {
+  width: 4px;
+  height: 85px;
+  background: #000;
+  margin-left: -2px;
+}
+
+.minute-hand::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -3px;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  transform: rotate(45deg);
+  border-radius: 1px;
+}
+
+/* Second Hand - Thin */
+.second-hand {
+  width: 1px;
+  height: 100px;
+  background: #c0392b; /* Subtle red or black */
+  margin-left: -0.5px;
+  z-index: 11;
+}
+
+.center-cap {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #000;
   border-radius: 50%;
+  z-index: 12;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 15;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.2);
+  border: 2px solid #c5a059; /* Gold rim */
 }
 
-/* Digital Time Display */
-.digital-time {
-  position: absolute;
-  bottom: 45px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 18px;
-  font-weight: 300;
-  color: #34495e;
-  letter-spacing: 1px;
-  font-family: 'Courier New', monospace;
-  z-index: 8;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 4px 12px;
-  border-radius: 4px;
-  border: 1px solid rgba(52, 73, 94, 0.1);
-}
-
-/* Temperature Display */
-.temperature-display {
+/* --- DIGITAL CLOCK (New Style) --- */
+.digital-clock-container {
   display: flex;
   align-items: center;
-  gap: 8px;
-  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
-  color: white;
-  padding: 12px 20px;
-  border-radius: 25px;
-  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
-  font-size: 14px;
-  font-weight: 600;
-  min-width: 120px;
   justify-content: center;
+  gap: 5px;
+  font-family: 'PP Pangaia', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.temp-icon {
+.digit-box {
+  background: #222;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 36px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.digit-sep {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  animation: blink 1s infinite;
+}
+
+.ampm-box {
+  font-size: 12px;
+  font-weight: 700;
+  color: #444;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* --- WEATHER PANEL --- */
+.weather-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.weather-icon-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-temp {
   font-size: 20px;
+  font-weight: 700;
+  color: #333;
 }
 
-.temp-value {
-  font-family: 'Georgia', serif;
+.weather-desc {
+  font-size: 12px;
+  color: #666;
+  text-transform: capitalize;
+}
+
+/* Weather Animations (Simple CSS shapes) */
+.weather-symbol {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Sun Animation */
+.anim-sun {
+  background: radial-gradient(circle, #f1c40f 40%, transparent 40%);
+  box-shadow: 0 0 10px #f1c40f;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  animation: spin 10s linear infinite;
+}
+.anim-sun::after {
+  content: '';
+  position: absolute;
+  top: -5px; left: -5px; right: -5px; bottom: -5px;
+  border: 2px dashed #f39c12;
+  border-radius: 50%;
+}
+
+/* Rain Animation */
+.anim-rain {
+  width: 4px;
+  height: 10px;
+  background: #3498db;
+  border-radius: 2px;
+  box-shadow: 10px 5px 0 #3498db, -10px 8px 0 #3498db;
+  animation: rain-drop 1s linear infinite;
+}
+
+/* Cloud Animation */
+.anim-cloud {
+  width: 30px;
+  height: 12px;
+  background: #bdc3c7;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 5px 0 #95a5a6;
+  animation: float 3s ease-in-out infinite;
+}
+.anim-cloud::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #bdc3c7;
+  border-radius: 50%;
+  top: -8px;
+  left: 5px;
+}
+
+@keyframes spin { 100% { transform: rotate(360deg); } }
+@keyframes rain-drop { 
+  0% { transform: translateY(-5px); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateY(10px); opacity: 0; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+/* --- CALENDAR PANELS --- */
+.date-panel, .bengali-panel {
+  text-align: center;
+  width: 100%;
+}
+
+.date-panel {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+}
+
+.english-date {
   font-size: 16px;
   font-weight: 600;
+  color: #2c3e50;
 }
 
-/* Animations */
-@keyframes tick {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.special-event {
+  font-size: 12px;
+  color: #e74c3c;
+  margin-top: 2px;
+  font-weight: 500;
+  height: 14px; /* Fix height to prevent jumping */
 }
 
-@keyframes subtle-pulse {
-  0%, 100% {
-    box-shadow: 0 0 0 8px #2c3e50, 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 1px 3px rgba(255, 255, 255, 0.8);
-  }
-  50% {
-    box-shadow: 0 0 0 8px #34495e, 0 10px 35px rgba(0, 0, 0, 0.4), inset 0 1px 3px rgba(255, 255, 255, 0.8);
-  }
+.bengali-panel {
+  color: #444;
 }
 
-.clock-face {
-  animation: subtle-pulse 3s ease-in-out infinite;
+.bengali-date {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Bangla', sans-serif; /* Fallback */
 }
 
-/* Responsive adjustments */
-@media (max-width: 460px) {
-  html {
-    width: 100vw;
-    height: auto;
-    min-width: auto;
-    min-height: auto;
-  }
-
-  body {
-    width: 100vw;
-    height: auto;
-    min-width: auto;
-    min-height: auto;
-    padding: 24px 16px;
-  }
-
-  .clock-face {
-    width: 280px;
-    height: 280px;
-  }
-
-  .hour-marker {
-    height: 18px;
-    transform-origin: center 131px;
-  }
-
-  .hour-number {
-    font-size: 14px;
-  }
-
-  .minute-hand {
-    height: 110px;
-  }
-
-  .second-hand {
-    height: 120px;
-  }
+.panjika-info {
+  font-size: 11px;
+  color: #7f8c8d;
+  margin-top: 2px;
+  font-style: italic;
 }
