@@ -2,60 +2,59 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* বক্স সাইজিং */
 }
 
 :root {
   --popup-width: 400px;
-  --popup-height: 600px; /* Increased height to fit new elements */
-  --popup-padding: 15px;
-  --wood-dark: #3e2723;
-  --wood-light: #5d4037;
-  --wood-grain: #4e342e;
-  --paper-bg: #f5f1e8;
-  --paper-shadow: #e0d8c8;
-  --text-dark: #1a1a1a;
-  --gold-accent: #c5a059;
+  --popup-height: 600px;
 }
 
 html {
   width: var(--popup-width);
-  min-width: var(--popup-width);
-  max-width: var(--popup-width);
   height: var(--popup-height);
-  min-height: var(--popup-height);
   overflow: hidden;
+  /* স্ক্রলবার বন্ধ */
 }
 
 body {
-  width: var(--popup-width);
-  height: var(--popup-height);
-  min-width: var(--popup-width);
-  max-width: var(--popup-width);
-  min-height: var(--popup-height);
-  max-height: var(--popup-height);
+  width: 100%;
+  height: 100vh;
+  /* ভিউপোর্ট উচ্চতা ১০০% */
   background: #fdfbf7;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* ব্যাকগ্রাউন্ড হালকা ক্রিম */
+  font-family: 'PP Pangaia', sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* ফ্লেক্সবক্স লেআউট */
+  flex-direction: column;
+  /* উল্লম্ব বিন্যাস */
   overflow: hidden;
-  padding: var(--popup-padding);
+  /* স্ক্রলবার লুকানো */
+  padding: 0;
+  /* প্যাডিং সরানো */
 }
 
 .container {
   width: 100%;
   height: 100%;
+  /* পূর্ণ উচ্চতা */
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding: 5px 0 5px 0;
+  /* উপরে-নিচে প্যাডিং, পাশে ০ রাখা হয়েছে যাতে 400px ঘড়ি কাটা না যায় */
+  overflow: hidden;
+  /* স্ক্রলবার বন্ধ */
 }
 
 /* Settings Toggle */
 .settings-bar {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  /* উপর থেকে ৫ পিক্সেল */
+  right: 5px;
+  /* ডান থেকে ৫ পিক্সেল */
   z-index: 50;
 }
 
@@ -67,7 +66,6 @@ body {
   font-size: 10px;
   cursor: pointer;
   color: #555;
-  transition: all 0.2s;
 }
 
 .format-toggle:hover {
@@ -79,280 +77,238 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  gap: 15px;
   width: 100%;
   height: 100%;
-  padding-top: 10px;
+  /* পূর্ণ উচ্চতা */
+  gap: 5px;
+  /* ফাঁক কমানো */
+  overflow: hidden;
+  /* স্ক্রলবার বন্ধ */
 }
 
-/* --- VINTAGE CLOCK FACE --- */
-
+/* --- CLOCK FACE (বড় ঘড়ি - Edges স্পর্শ করবে) --- */
 .clock-face {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
+  flex-grow: 1;
+  /* অবশিষ্ট স্থান নেয় */
+  width: 400px;
+  /* প্রস্থ ৩৬০ পিক্সেল */
+  height: 400px;
+  /* উচ্চতা ৩৬০ পিক্সেল */
+  margin: 0 auto;
+  /* মাঝখানে সেন্টার */
   position: relative;
-  /* Vintage brown wooden frame with soft highlight */
-  background-color: var(--wood-light);
-  background-image:
-    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.4), transparent 60%),
-    repeating-linear-gradient(45deg, var(--wood-dark) 0px, var(--wood-light) 3px, var(--wood-grain) 6px);
-  box-shadow:
-    0 18px 28px rgba(0, 0, 0, 0.45),
-    inset 0 0 8px rgba(0, 0, 0, 0.6),
-    0 0 0 4px #2c1e1a; /* Darker outer rim */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
+  /* আপেক্ষিক অবস্থান */
+  aspect-ratio: 1 / 1;
+  /* বর্গাকার অনুপাত */
 }
 
-/* The Paper Dial */
-.clock-face::before {
-  content: '';
+.clock-dial {
+  width: 100%;
+  /* প্রস্থ ১০০% */
+  height: 100%;
+  /* উচ্চতা ১০০% */
+  object-fit: cover;
+  /* ছবি ফিট করা */
   position: absolute;
-  width: 230px; /* Inner diameter */
-  height: 230px;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.65), transparent 60%),
-    radial-gradient(circle, #fffff0 0%, var(--paper-bg) 80%, var(--paper-shadow) 100%);
-  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.25);
-}
-
-/* Inner Ring Markings (Subtle) */
-.inner-ring {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  border: 1px solid rgba(0,0,0,0.1);
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 
-.designer-logo {
-  position: absolute;
-  top: 65px;
-  font-family: 'Times New Roman', serif;
-  font-size: 10px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #555;
-  z-index: 2;
-  opacity: 0.8;
-}
-
-/* Markers & Numbers */
-.markers {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
-.hour-number {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  font-weight: 700;
-  color: #000;
-  font-family: 'Times New Roman', serif; /* Victorian Style Font */
-}
-
-/* Minute Markers Ring - subtle inner ticks around dial */
-.minute-markers-ring {
-  position: absolute;
-  width: 210px;
-  height: 210px;
+.center-ref {
+  width: 6px;
+  /* প্রস্থ ৬ পিক্সেল */
+  height: 6px;
+  /* উচ্চতা ৬ পিক্সেল */
+  background: red;
+  /* লাল রঙ */
   border-radius: 50%;
-  z-index: 1;
-  background:
-    radial-gradient(circle, transparent 72%, rgba(0, 0, 0, 0.25) 73%, transparent 74%),
-    repeating-conic-gradient(
-      from -90deg,
-      rgba(0, 0, 0, 0.45) 0deg 2deg,
-      transparent 2deg 6deg
-    );
+  /* গোলাকার */
+  position: absolute;
+  top: 50%;
+  /* উপর থেকে ৫০% */
+  left: 50%;
+  /* বাম থেকে ৫০% */
+  transform: translate(-50%, -50%);
+  /* মাঝখানে সেন্টার */
+  z-index: 100;
+  /* সবার উপরে */
+  pointer-events: none;
+  /* ক্লিক ইভেন্ট বন্ধ */
+  opacity: 0.5;
+  /* অর্ধ-স্বচ্ছ */
 }
 
-/* Hands - Victorian Style */
+/* --- HANDS (কেন্দ্র থেকে ঘুরবে - Top Pivot) --- */
 .hand {
   position: absolute;
-  bottom: 50%;
   left: 50%;
-  transform-origin: bottom center;
-  z-index: 10;
-  border-radius: 2px;
-}
-
-/* Hour Hand - Ornate */
-.hour-hand {
-  width: 7px;
-  height: 70px;
-  background: #000;
-  margin-left: -3.5px;
-  border-radius: 999px;
-}
-
-.hour-hand::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  transform: translateX(-50%);
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 18px solid #000;
-}
-
-.hour-hand::after {
-  content: '';
-  position: absolute;
-  top: 16px;
-  left: 50%;
-  width: 16px;
-  height: 16px;
-  background: #000;
-  transform: translateX(-50%) rotate(45deg);
-  border-radius: 2px;
-}
-
-/* Minute Hand - Ornate */
-.minute-hand {
-  width: 4px;
-  height: 95px;
-  background: #000;
-  margin-left: -2px;
-  border-radius: 999px;
-}
-
-.minute-hand::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  transform: translateX(-50%);
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 22px solid #000;
-}
-
-.minute-hand::after {
-  content: '';
-  position: absolute;
-  top: 22px;
-  left: 50%;
-  width: 12px;
-  height: 12px;
-  background: #000;
-  transform: translateX(-50%) rotate(45deg);
-  border-radius: 1px;
-}
-
-/* Second Hand - Thin */
-.second-hand {
-  width: 1px;
-  height: 105px;
-  background: #000;
-  margin-left: -0.5px;
-  z-index: 11;
-}
-
-.second-hand::after {
-  content: '';
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  width: 6px;
-  height: 6px;
-  transform: translateX(-50%);
-  border-radius: 50%;
-  border: 1px solid #000;
-  background: transparent;
-}
-
-.center-cap {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: #000;
-  border-radius: 50%;
-  z-index: 12;
+  /* বাম থেকে ৫০% */
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 2px solid #c5a059; /* Gold rim */
+  /* উপর থেকে ৫০% */
+  width: auto;
+  z-index: 10;
+  pointer-events: none;
+  /* ক্লিক ইভেন্ট বন্ধ */
 }
 
-/* --- DIGITAL CLOCK (New Style) --- */
+/* Hand Sizes (নতুন সেটিংস) */
+.hour-hand {
+  height: 39%;
+  /* ঘন্টার কাঁটা ৩৯% */
+  z-index: 11;
+  transform-origin: 50% 79%;
+  /* কেন্দ্র থেকে ঘুরবে */
+}
+
+.minute-hand {
+  height: 47%;
+  /* মিনিট কাঁটা ৪৭% */
+  z-index: 12;
+  transform-origin: 50% 88%;
+  /* কেন্দ্র থেকে ঘুরবে */
+}
+
+.second-hand {
+  height: 59%;
+  /* সেকেন্ড কাঁটা ৫৯% */
+  z-index: 13;
+  transform-origin: 50% 68%;
+  /* কেন্দ্র থেকে ঘুরবে */
+}
+
+/* --- CENTER NUT (কেন্দ্রীয় ক্যাপ) --- */
+.center-nut {
+  width: 16px;
+  /* প্রস্থ বাড়ানো */
+  height: 16px;
+  /* উচ্চতা বাড়ানো */
+  background: #222;
+  /* গাঢ় কালো */
+  border: 2px solid #444;
+  /* বর্ডার যোগ */
+  border-radius: 50%;
+  /* গোলাকার */
+  position: absolute;
+  top: 50%;
+  /* উপর থেকে ৫০% */
+  left: 50%;
+  /* বাম থেকে ৫০% */
+  transform: translate(-50%, -50%);
+  /* মাঝখানে সেন্টার */
+  z-index: 20;
+  /* সবার উপরে */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  /* ছায়া বাড়ানো */
+}
+
+/* --- DIGITAL CLOCK --- */
 .digital-clock-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  font-family: 'PP Pangaia', sans-serif;
+  gap: 4px;
+  /* ফাঁক কমানো */
+  margin-bottom: 6px;
+  flex-shrink: 0;
+  /* সংকুচিত হবে না */
 }
 
 .digit-box {
   background: #222;
+  /* কালো পটভূমি */
   color: #fff;
-  padding: 5px 8px;
-  border-radius: 4px;
-  font-size: 18px;
-  font-weight: 500;
-  min-width: 36px;
+  /* সাদা টেক্সট */
+  padding: 6px 10px;
+  /* সংখ্যা ঘেরা বক্স একটু বড় */
+  border-radius: 6px;
+  font-size: 32px;
+  /* ডিজিটের ফন্ট সাইজ বড় */
+  font-weight: bold;
+  min-width: 48px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-family: 'PP Pangaia', sans-serif;
+  /* ডিজিটাল ক্লকের জন্য বিশেষ ফন্ট */
+  user-select: none;
+  /* লেখা সিলেক্ট না হওয়া */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  /* স্মুথ অ্যানিমেশন */
+  will-change: opacity, transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .digit-sep {
-  font-size: 18px;
+  font-size: 32px;
   font-weight: bold;
-  color: #222;
-  animation: blink 1s infinite;
+  color: #333;
+  animation: none;
+  /* ব্লিংক বন্ধ, কোলন স্ট্যাটিক রাখা হয়েছে */
+  font-family: 'PP Pangaia', sans-serif;
+  /* সেপারেটরেও একই ফন্ট */
+  user-select: none;
 }
 
 .ampm-box {
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   color: #444;
-  margin-left: 5px;
-}
-
-@keyframes blink {
-  50% { opacity: 0; }
+  margin-left: 6px;
+  font-family: 'PP Pangaia', sans-serif;
+  /* AM/PM টেক্সটও একই ফন্টে */
 }
 
 /* --- WEATHER PANEL --- */
 .weather-panel {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  width: 90%;
-  background: rgba(255, 255, 255, 0.7);
-  padding: 10px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.05);
+  gap: 2px;
+  width: 85%;
+  background: rgba(255, 255, 255, 0.8);
+  /* আধা-স্বচ্ছ সাদা */
+  padding: 4px 6px;
+  /* আরও কমপ্যাক্ট প্যাডিং */
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+  /* সংকুচিত হবে না */
+}
+
+.weather-top-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.location-select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  /* নিচে বর্ডার */
+  font-family: inherit;
+  font-size: 13px;
+  /* ফন্ট সাইজ কমানো */
+  color: #333;
+  padding: 2px 4px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  max-width: 180px;
+}
+
+.weather-content-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 
 .weather-icon-container {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,129 +316,191 @@ body {
 
 .weather-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
 }
 
 .weather-temp {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: #333;
 }
 
+.weather-feels {
+  font-size: 9px;
+  color: #555;
+}
+
 .weather-desc {
-  font-size: 12px;
+  font-size: 9px;
   color: #666;
   text-transform: capitalize;
+  /* প্রথম অক্ষর বড় হাতের */
 }
 
-/* Weather Animations (Simple CSS shapes) */
-.weather-symbol {
-  width: 24px;
-  height: 24px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+/* অতিরিক্ত আবহাওয়া তথ্য (বাতাসের গতি, আর্দ্রতা) */
+.weather-extra {
+  margin-top: 0;
+  display: flex;
+  gap: 6px;
+  font-size: 9px;
+  color: #555;
 }
 
-/* Sun Animation */
-.anim-sun {
-  background: radial-gradient(circle, #f1c40f 40%, transparent 40%);
-  box-shadow: 0 0 10px #f1c40f;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  animation: spin 10s linear infinite;
-}
-.anim-sun::after {
-  content: '';
-  position: absolute;
-  top: -5px; left: -5px; right: -5px; bottom: -5px;
-  border: 2px dashed #f39c12;
-  border-radius: 50%;
+.weather-extra-item {
+  white-space: nowrap;
 }
 
-/* Rain Animation */
-.anim-rain {
-  width: 4px;
-  height: 10px;
-  background: #3498db;
-  border-radius: 2px;
-  box-shadow: 10px 5px 0 #3498db, -10px 8px 0 #3498db;
-  animation: rain-drop 1s linear infinite;
-}
-
-/* Cloud Animation */
-.anim-cloud {
-  width: 30px;
-  height: 12px;
-  background: #bdc3c7;
-  border-radius: 10px;
-  position: relative;
-  box-shadow: 0 5px 0 #95a5a6;
-  animation: float 3s ease-in-out infinite;
-}
-.anim-cloud::after {
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background: #bdc3c7;
-  border-radius: 50%;
-  top: -8px;
-  left: 5px;
-}
-
-@keyframes spin { 100% { transform: rotate(360deg); } }
-@keyframes rain-drop { 
-  0% { transform: translateY(-5px); opacity: 0; }
-  50% { opacity: 1; }
-  100% { transform: translateY(10px); opacity: 0; }
-}
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-3px); }
-}
-
-/* --- CALENDAR PANELS --- */
-.date-panel, .bengali-panel {
+/* --- DATE PANELS (সঠিকভাবে দেখানো) --- */
+.date-panel,
+.bengali-panel {
   text-align: center;
   width: 100%;
-}
-
-.date-panel {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 8px;
-  margin-bottom: 5px;
+  margin-top: 1px;
+  flex-shrink: 0;
+  /* সংকুচিত হবে না */
 }
 
 .english-date {
-  font-size: 16px;
+  font-size: 13px;
+  /* ফন্ট সাইজ কমানো */
   font-weight: 600;
   color: #2c3e50;
+  line-height: 1.2;
 }
 
 .special-event {
-  font-size: 12px;
+  font-size: 10px;
   color: #e74c3c;
-  margin-top: 2px;
-  font-weight: 500;
-  height: 14px; /* Fix height to prevent jumping */
-}
-
-.bengali-panel {
-  color: #444;
+  /* লাল রঙ */
+  min-height: 12px;
+  /* সর্বনিম্ন উচ্চতা */
 }
 
 .bengali-date {
-  font-size: 14px;
+  font-size: 12px;
+  /* ফন্ট সাইজ কমানো */
   font-weight: 500;
-  font-family: 'Bangla', sans-serif; /* Fallback */
+  font-family: 'Bangla', 'Noto Sans Bengali', sans-serif;
+  line-height: 1.3;
+  color: #34495e;
+  cursor: pointer;
+  /* ক্লিকযোগ্য বোঝানোর জন্য */
+}
+
+.bengali-date:hover {
+  text-decoration: underline;
+  /* hover এ সামান্য underline দেখাবে */
 }
 
 .panjika-info {
-  font-size: 11px;
+  font-size: 9px;
   color: #7f8c8d;
-  margin-top: 2px;
   font-style: italic;
+  /* ইটালিক */
+  line-height: 1.2;
+}
+
+/* --- WEATHER ICON ANIMATIONS --- */
+.weather-symbol {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Sunny / Clear */
+.anim-sun {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #fff7c2, #ffcc33);
+  box-shadow: 0 0 8px rgba(255, 204, 51, 0.7);
+  animation: sun-pulse 3s ease-in-out infinite;
+}
+
+@keyframes sun-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 6px rgba(255, 204, 51, 0.6);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 12px rgba(255, 204, 51, 0.9);
+  }
+}
+
+/* Cloudy */
+.anim-cloud {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.anim-cloud::before,
+.anim-cloud::after {
+  content: "";
+  position: absolute;
+  background: #c2c8ca;
+  border-radius: 50%;
+}
+
+.anim-cloud::before {
+  width: 70%;
+  height: 55%;
+  left: 10%;
+  bottom: 15%;
+}
+
+.anim-cloud::after {
+  width: 55%;
+  height: 45%;
+  right: 5%;
+  bottom: 25%;
+}
+
+.anim-cloud {
+  animation: cloud-drift 4s ease-in-out infinite;
+}
+
+@keyframes cloud-drift {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(3px); }
+}
+
+/* Rainy */
+.anim-rain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.anim-rain::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 45%;
+  left: 15%;
+  bottom: 35%;
+  background: #dfe6e9;
+  border-radius: 50%;
+}
+
+.anim-rain::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 2px;
+  height: 55%;
+  background: linear-gradient(to bottom, rgba(52, 152, 219, 0.9), transparent);
+  transform: translateX(-50%);
+  animation: rain-fall 0.7s linear infinite;
+}
+
+@keyframes rain-fall {
+  0% { transform: translate(-50%, -10%); opacity: 1; }
+  100% { transform: translate(-50%, 40%); opacity: 0; }
 }

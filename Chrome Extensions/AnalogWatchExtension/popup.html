@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Analog Watch - British Design</title>
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/pp-pangaia">
   <link rel="stylesheet" href="popup.css">
 </head>
+
 <body>
   <div class="container">
     <!-- Settings / Toggle -->
@@ -14,44 +17,17 @@
     </div>
 
     <div class="watch-container">
-      <!-- Clock Face -->
+      <!-- Clock Face (Image Based) -->
       <div class="clock-face">
-        <!-- Inner Ring -->
-        <div class="inner-ring"></div>
-        
-        <!-- Designer Logo/Branding -->
-        <div class="designer-logo">Chronos</div>
-
-        <!-- Hour Markers and Numbers -->
-        <div class="markers">
-          <!-- Markers will be generated or styled via CSS -->
-          <div class="hour-number" style="transform: rotate(30deg) translateY(-110px) rotate(-30deg)">1</div>
-          <div class="hour-number" style="transform: rotate(60deg) translateY(-110px) rotate(-60deg)">2</div>
-          <div class="hour-number" style="transform: rotate(90deg) translateY(-110px) rotate(-90deg)">3</div>
-          <div class="hour-number" style="transform: rotate(120deg) translateY(-110px) rotate(-120deg)">4</div>
-          <div class="hour-number" style="transform: rotate(150deg) translateY(-110px) rotate(-150deg)">5</div>
-          <div class="hour-number" style="transform: rotate(180deg) translateY(-110px) rotate(-180deg)">6</div>
-          <div class="hour-number" style="transform: rotate(210deg) translateY(-110px) rotate(-210deg)">7</div>
-          <div class="hour-number" style="transform: rotate(240deg) translateY(-110px) rotate(-240deg)">8</div>
-          <div class="hour-number" style="transform: rotate(270deg) translateY(-110px) rotate(-270deg)">9</div>
-          <div class="hour-number" style="transform: rotate(300deg) translateY(-110px) rotate(-300deg)">10</div>
-          <div class="hour-number" style="transform: rotate(330deg) translateY(-110px) rotate(-330deg)">11</div>
-          <div class="hour-number" style="transform: rotate(360deg) translateY(-110px) rotate(-360deg)">12</div>
-        </div>
-
-        <!-- Minute Markers Ring (Simplified for now, can be complex in CSS) -->
-        <div class="minute-markers-ring"></div>
-
-        <!-- Watch Hands -->
-        <div class="hand hour-hand" id="hour-hand"></div>
-        <div class="hand minute-hand" id="minute-hand"></div>
-        <div class="hand second-hand" id="second-hand"></div>
-
-        <!-- Center Cap -->
-        <div class="center-cap"></div>
+        <div class="center-ref"></div>
+        <img src="face.png" alt="Clock Face" class="clock-dial">
+        <img src="hour.png" alt="Hour Hand" class="hand hour-hand" id="hour-hand">
+        <img src="minute.png" alt="Minute Hand" class="hand minute-hand" id="minute-hand">
+        <img src="second.png" alt="Second Hand" class="hand second-hand" id="second-hand">
+        <div class="center-nut"></div>
       </div>
 
-      <!-- Digital Time Display (New Location) -->
+      <!-- Digital Time Display -->
       <div class="digital-clock-container">
         <div class="digit-box" id="digit-hour">12</div>
         <div class="digit-sep">:</div>
@@ -61,25 +37,36 @@
         <div class="ampm-box" id="digit-ampm">AM</div>
       </div>
 
-      <!-- Weather Panel (New) -->
+      <!-- Weather Panel -->
       <div class="weather-panel" id="weather-panel">
-        <div class="weather-icon-container" id="weather-anim">
-          <!-- Animation elements injected by JS or CSS -->
-          <div class="weather-symbol"></div>
+        <div class="weather-top-row">
+          <select id="location-select" class="location-select">
+            <!-- Options populated by JS -->
+          </select>
         </div>
-        <div class="weather-info">
-          <div class="weather-temp" id="weather-temp">--°C</div>
-          <div class="weather-desc" id="weather-desc">Loading...</div>
+        <div class="weather-content-row">
+          <div class="weather-icon-container" id="weather-anim">
+            <div class="weather-symbol"></div>
+          </div>
+          <div class="weather-info">
+            <div class="weather-temp" id="weather-temp">--°C</div>
+            <div class="weather-feels" id="weather-feels">Feels like --°C</div>
+            <div class="weather-desc" id="weather-desc">Loading...</div>
+            <div class="weather-extra">
+              <div class="weather-extra-item" id="weather-wind">-- km/h</div>
+              <div class="weather-extra-item" id="weather-humidity">--%</div>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <!-- Date Panel (New) -->
+
+      <!-- Date Panel -->
       <div class="date-panel">
         <div class="english-date" id="english-date">Loading Date...</div>
         <div class="special-event" id="special-event"></div>
       </div>
 
-      <!-- Bengali Date Panel (New) -->
+      <!-- Bengali Date Panel -->
       <div class="bengali-panel">
         <div class="bengali-date" id="bengali-date">...</div>
         <div class="panjika-info" id="panjika-info"></div>
@@ -90,4 +77,5 @@
 
   <script src="popup.js"></script>
 </body>
+
 </html>

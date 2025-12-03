@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Adjuster Tool</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .preview-section {
+            flex: 0 0 400px;
+            background: #fdfbf7;
+            height: 600px;
+            position: relative;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup-preview {
+            width: 400px; /* আপনার অরিজিনাল সাইজ */
+            height: 600px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .clock-container {
+            position: relative;
+            /* সাইজ এখন JS দিয়ে কন্ট্রোল হবে */
+        }
+
+        .clock-dial {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        /* লাল বিন্দু - রেফারেন্সের জন্য */
+        .center-ref {
+            width: 6px;
+            height: 6px;
+            background: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
+            pointer-events: none;
+        }
+
+        .hand {
+            position: absolute;
+            /* টপ আর লেফট ৫০% ফিক্সড থাকবে, আমরা অ্যাঙ্কর দিয়ে সরাবো */
+            top: 50%;
+            left: 50%; 
+            z-index: 10;
+            width: auto;
+        }
+
+        .hour-hand { z-index: 11; }
+        .minute-hand { z-index: 12; }
+        .second-hand { z-index: 13; }
+
+        .center-nut {
+            background: #222;
+            border: 2px solid #444;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 20;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        .controls-section {
+            flex: 1;
+            background: #34495e;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-y: auto;
+            max-height: 600px;
+        }
+
+        .control-group { margin-bottom: 20px; padding: 15px; background: #2c3e50; border-radius: 6px; }
+        .control-group h3 { color: #3498db; margin-bottom: 10px; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        .control-item { margin: 10px 0; }
+        .control-item label { display: block; margin-bottom: 5px; font-size: 13px; color: #bdc3c7; }
+        .control-item input[type="range"] { width: 100%; margin: 5px 0; }
+        .value-display { display: inline-block; margin-left: 10px; font-weight: bold; color: #e74c3c; min-width: 60px; }
+
+        .output-section { margin-top: 20px; padding: 15px; background: #1a252f; border-radius: 6px; }
+        .code-output { background: #0d1117; padding: 15px; border-radius: 4px; font-family: monospace; font-size: 12px; color: #58a6ff; max-height: 300px; overflow-y: auto; white-space: pre-wrap; }
+        
+        button { background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; margin-top: 10px; }
+        
+        .hand-group { background: #34495e; padding: 10px; border-radius: 4px; margin-bottom: 10px; border-left: 3px solid; }
+        .hand-group.hour { border-color: #e74c3c; }
+        .hand-group.minute { border-color: #3498db; }
+        .hand-group.second { border-color: #2ecc71; }
+    </style>
+</head>
+
+<body>
+    <div class="preview-section">
+        <div class="popup-preview">
+            <div class="clock-container" id="clock-container">
+                <div class="center-ref"></div>
+                
+                <img src="face.png" class="clock-dial">
+                <img src="hour.png" class="hand hour-hand" id="hour-hand">
+                <img src="minute.png" class="hand minute-hand" id="minute-hand">
+                <img src="second.png" class="hand second-hand" id="second-hand">
+                <div class="center-nut" id="center-nut"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls-section">
+        <h2 style="color: #3498db; margin-bottom: 20px;"⚙️ Clock Adjuster Tool</h2>
+        <p style="font-size: 12px; color: #f39c12; margin-bottom: 15px;">
+            💡 টিপস: <b>Anchor Y</b> স্লাইডারটি নাড়ান যতক্ষণ না কাঁটার ছিদ্রটি ঠিক <span style="color:red">লাল বিন্দুর</span> ওপরে বসে।
+        </p>
+
+        <div class="control-group">
+            <h3>🎯 Clock Face Size</h3>
+            <div class="control-item">
+                <label>Width/Height (px): <span class="value-display" id="face-size-val">320</span></label>
+                <input type="range" id="face-size" min="200" max="400" value="320" step="5">
+            </div>
+        </div>
+
+        <div class="control-group">
+            <h3>📍 Hand Positioning (Anchor Logic)</h3>
+
+            <div class="hand-group hour">
+                <h4>🔴 Hour Hand</h4>
+                <div class="control-item">
+                    <label>Length (%): <span class="value-display" id="hour-height-val">28</span></label>
+                    <input type="range" id="hour-height" min="10" max="50" value="28" step="1">
+                </div>
+                <div class="control-item">
+                    <label>⚓ Anchor Y (%): <span class="value-display" id="hour-anchor-val">90</span></label>
+                    <input type="range" id="hour-anchor" min="0" max="100" value="90" step="0.5">
+                </div>
+            </div>
+
+            <div class="hand-group minute">
+                <h4>🔵 Minute Hand</h4>
+                <div class="control-item">
+                    <label>Length (%): <span class="value-display" id="minute-height-val">42</span></label>
+                    <input type="range" id="minute-height" min="10" max="60" value="42" step="1">
+                </div>
+                <div class="control-item">
+                    <label>⚓ Anchor Y (%): <span class="value-display" id="minute-anchor-val">90</span></label>
+                    <input type="range" id="minute-anchor" min="0" max="100" value="90" step="0.5">
+                </div>
+            </div>
+
+            <div class="hand-group second">
+                <h4>🟢 Second Hand</h4>
+                <div class="control-item">
+                    <label>Length (%): <span class="value-display" id="second-height-val">45</span></label>
+                    <input type="range" id="second-height" min="10" max="60" value="45" step="1">
+                </div>
+                <div class="control-item">
+                    <label>⚓ Anchor Y (%): <span class="value-display" id="second-anchor-val">80</span></label>
+                    <input type="range" id="second-anchor" min="0" max="100" value="80" step="0.5">
+                </div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <h3>⚫ Center Nut</h3>
+            <div class="control-item">
+                <label>Size (px): <span class="value-display" id="nut-size-val">16</span></label>
+                <input type="range" id="nut-size" min="8" max="30" value="16" step="1">
+            </div>
+        </div>
+
+        <div class="output-section">
+            <h3>📋 CSS & JS Output</h3>
+            <button onclick="copyCode()">📄 Copy Code</button>
+            <div class="code-output" id="code-output"></div>
+        </div>
+    </div>
+
+    <script>
+        const clockContainer = document.getElementById('clock-container');
+        const hourHand = document.getElementById('hour-hand');
+        const minuteHand = document.getElementById('minute-hand');
+        const secondHand = document.getElementById('second-hand');
+        const centerNut = document.getElementById('center-nut');
+        const codeOutput = document.getElementById('code-output');
+
+        const controls = {
+            faceSize: document.getElementById('face-size'),
+            
+            hourHeight: document.getElementById('hour-height'),
+            hourAnchor: document.getElementById('hour-anchor'), // NEW
+
+            minuteHeight: document.getElementById('minute-height'),
+            minuteAnchor: document.getElementById('minute-anchor'), // NEW
+
+            secondHeight: document.getElementById('second-height'),
+            secondAnchor: document.getElementById('second-anchor'), // NEW
+
+            nutSize: document.getElementById('nut-size')
+        };
+
+        const displays = {
+            faceSize: document.getElementById('face-size-val'),
+            
+            hourHeight: document.getElementById('hour-height-val'),
+            hourAnchor: document.getElementById('hour-anchor-val'),
+
+            minuteHeight: document.getElementById('minute-height-val'),
+            minuteAnchor: document.getElementById('minute-anchor-val'),
+
+            secondHeight: document.getElementById('second-height-val'),
+            secondAnchor: document.getElementById('second-anchor-val'),
+
+            nutSize: document.getElementById('nut-size-val')
+        };
+
+        let rotations = { hour: 0, minute: 0, second: 0 };
+
+        function updateClock() {
+            // Update Text Values
+            Object.keys(controls).forEach(key => {
+                displays[key].textContent = controls[key].value;
+            });
+
+            const size = controls.faceSize.value;
+            clockContainer.style.width = size + 'px';
+            clockContainer.style.height = size + 'px';
+
+            // --- HOUR HAND ---
+            const hH = controls.hourHeight.value;
+            const hA = controls.hourAnchor.value;
+            hourHand.style.height = hH + '%';
+            // Logic: Translate moves pivot to center, Rotate spins it
+            hourHand.style.transformOrigin = `50% ${hA}%`;
+            hourHand.style.transform = `translate(-50%, -${hA}%) rotate(${rotations.hour}deg)`;
+
+            // --- MINUTE HAND ---
+            const mH = controls.minuteHeight.value;
+            const mA = controls.minuteAnchor.value;
+            minuteHand.style.height = mH + '%';
+            minuteHand.style.transformOrigin = `50% ${mA}%`;
+            minuteHand.style.transform = `translate(-50%, -${mA}%) rotate(${rotations.minute}deg)`;
+
+            // --- SECOND HAND ---
+            const sH = controls.secondHeight.value;
+            const sA = controls.secondAnchor.value;
+            secondHand.style.height = sH + '%';
+            secondHand.style.transformOrigin = `50% ${sA}%`;
+            secondHand.style.transform = `translate(-50%, -${sA}%) rotate(${rotations.second}deg)`;
+
+            // --- NUT ---
+            const nut = controls.nutSize.value;
+            centerNut.style.width = nut + 'px';
+            centerNut.style.height = nut + 'px';
+
+            generateCode();
+        }
+
+        function generateCode() {
+            const hA = controls.hourAnchor.value;
+            const mA = controls.minuteAnchor.value;
+            const sA = controls.secondAnchor.value;
+
+            const code = `/* --- CSS UPDATE --- */
+.clock-container {
+  width: ${controls.faceSize.value}px;
+  height: ${controls.faceSize.value}px;
+  position: relative;
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+}
+
+.hour-hand {
+  height: ${controls.hourHeight.value}%;
+  transform-origin: 50% ${hA}%; /* Anchor Point */
+}
+
+.minute-hand {
+  height: ${controls.minuteHeight.value}%;
+  transform-origin: 50% ${mA}%; /* Anchor Point */
+}
+
+.second-hand {
+  height: ${controls.secondHeight.value}%;
+  transform-origin: 50% ${sA}%; /* Anchor Point */
+}
+
+.center-nut {
+  width: ${controls.nutSize.value}px;
+  height: ${controls.nutSize.value}px;
+  /* ...centering styles... */
+}
+
+/* --- JS UPDATE (CRITICAL) --- */
+/* Use these exact lines in your updateClock function: */
+
+// Hour
+hourHand.style.transform = \`translate(-50%, -${hA}%) rotate(\${hourDeg}deg)\`;
+
+// Minute
+minuteHand.style.transform = \`translate(-50%, -${mA}%) rotate(\${minuteDeg}deg)\`;
+
+// Second
+secondHand.style.transform = \`translate(-50%, -${sA}%) rotate(\${secondDeg}deg)\`;`;
+
+            codeOutput.textContent = code;
+        }
+
+        function copyCode() {
+            navigator.clipboard.writeText(codeOutput.textContent).then(() => alert('Code Copied!'));
+        }
+
+        Object.values(controls).forEach(input => input.addEventListener('input', updateClock));
+
+        // Animation
+        setInterval(() => {
+            const now = new Date();
+            const s = now.getSeconds();
+            const m = now.getMinutes();
+            const h = now.getHours();
+
+            rotations.second = s * 6;
+            rotations.minute = m * 6 + s * 0.1;
+            rotations.hour = (h % 12) * 30 + m * 0.5;
+            updateClock();
+        }, 1000);
+
+        updateClock();
+    </script>
+</body>
+</html>
